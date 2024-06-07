@@ -1,0 +1,76 @@
+2024-06-05
+
+New Feature: Astrolabe
+[How to Unlock] Complete Chapter 12-20
+[Feature Introduction] Default SSR characters have access to an exclusive Astrolabe, which can hold 9 Astral Gems.
+Astral Gems come in rarities of green, blue, purple, gold, and red, with red being the exclusive Astral Gem. Placing 3, 6, or 9 exclusive Astral Gems unlocks character-specific skills.
+*The same character cannot have the same named Astral Gem placed simultaneously.
+
+New Feature: Extreme Cave
+[How to Unlock] Complete Chapter 5-12 (Resets every 48 hours)
+[Feature Introduction] Both enemies and allies gain special BUFF bonuses, so use specific methods to conquer the levels!
+The Extreme Cave consists of 16 stages. Completing challenges rewards you with Astal Gem Contract, Astral Gem EXP Badge, Hero EXP, and more.
+
+Limited-Time Recruitment: The Imperial Intelligence Division
+[Event Period] June 5th after maintenance ~ June 19th, 14:00 (GMT+8)
+[Event Description] During the event period, the draw rates for Altina Orion and Lechter Arundel will be increased (2.0% / 1.0%).
+*Each draw costs 300 JC or 1 Division Ticket.
+*After the June 12th maintenance, Altina Orion will be added to the Regular Gacha, Attribute Gacha, Amigo Gacha, SSR Shard, and SSR Attribute Selector Box pools.
+Accumulative Draw Rewards:
+50 Recruits: 500 Septium
+100 Recruits: 5 Division Tickets
+200 Recruits: Altina Orion
+300 Recruits: SSR Selector Box
+
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] During the event period, select an "Earth, Fire, or Time Attribute character's exclusive" Astral Gem as the grand prize, with a base rate of 2%. If you do not win the grand prize after 98 consecutive attempts, the next attempt is guaranteed to win the grand prize.
+Each draw costs 300 Astral Gems.
+
+Event Dungeon: Candidate Party
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] The event dungeon is open at Normal Difficulty. Complete challenges to earn rewards like Shaved Ice, Summer Special Beverages, and Imperial Intelligence Division Tickets.
+
+Event Raid: Altina Orion
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] For every 1% damage dealt in the event raid, you can earn "2 Summer Special Beverages" and have a chance to receive random rewards such as Free JC and Mira.
+
+Mishy Challenge
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] The Mishy Challenge is open at Normal and Challenge Difficulties. Completing challenges can earn you Shaved Ice, Summer Special Beverages, and Free JC.
+
+Achievement Challenge
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] Complete missions during the event period to earn rewards like Shaved Ice, Summer Special Beverages, and SSR Shards.
+
+Seven-Day Login
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] Log in during the event period to receive abundant rewards!
+
+DAY 1: 900 Astral Gems
+DAY 2: 5 Imperial Intelligence Division Tickets
+DAY 3: 500 Special Drink
+DAY 4: 1500 Astral Gem Contract
+DAY 5: 200 Shaved Ice
+DAY 6: 3 Attribute Gacha Tickets
+DAY 7: Trails of Cold Steel NW Frame
+
+Wishing Star
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] During the event period, a summer swim ring will drop on the First Map from 18:00 to 24:00, providing Attribute Gacha Tickets when collected.
+This feature unlocks after completing "Chapters 12-20". From 18:00 to 24:00 each day, meteors will randomly drop on each map, and collecting them will also earn you Astral Gems!
+
+Event Exchange
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] During the event period, use Shaved Ice and Summer Special Beverages to exchange for rewards such as Super Nova IV, Imperial Intelligence Division Tickets, Astral Gems, and many more!
+
+Event Shop
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] During the event period, claim 50 Summer Special Beverages daily and purchase Summer Shaved Ice at a discounted price!
+
+Outfit Shop
+[Event Period] June 5th after maintenance ~ June 12th, 14:00 (GMT+8)
+[Event Description] New outfits are now available, with a limited-time 20% discount!
+
+Altina - Swimsuit Outfit
+Mireille - Swimsuit Outfit
+Lynn - Swimsuit Outfit

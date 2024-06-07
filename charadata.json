@@ -1,0 +1,370 @@
+[
+   {
+      "name": "Laura S. Arseid",
+      "title": "Arseid style master",
+      "element": "water",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Rean Schwarzer",
+      "title": "Ashen Chevalier",
+      "element": "time",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Assassin"
+   },
+   {
+      "name": "Elliot Craig",
+      "title": "The Musician",
+      "element": "space",
+      "type": "Magic",
+      "job": "Supporter",
+      "role": "Buffer"
+   },
+   {
+      "name": "Claire Rieveldt",
+      "title": "The Icy Maiden",
+      "element": "water",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Range Effect"
+   },
+   {
+      "name": "Sigmund Orlando",
+      "title": "The Red Ogre",
+      "element": "fire",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Ries Argent",
+      "title": "The Squire",
+      "element": "earth",
+      "type": "Magic",
+      "job": "Supporter",
+      "role": "Buffer"
+   },
+   {
+      "name": "Zin Vathek",
+      "title": "The Immovable",
+      "element": "earth",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Kevin Graham",
+      "title": "The Thousand Hand Guardian",
+      "element": "space",
+      "type": "Speed",
+      "job": "Supporter",
+      "role": "Healer"
+   },
+   {
+      "name": "Alisa Reinford",
+      "title": "The Reinford Heiress",
+      "element": "fire",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Range Effect"
+   },
+   {
+      "name": "Shirley Orlando",
+      "title": "The Sanguine Ogre",
+      "element": "time",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Estelle Bright",
+      "title": "The Radiant Sun",
+      "element": "fire",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Powerful Damage"
+   },
+   {
+      "name": "Joshua Bright",
+      "title": "Black Fang",
+      "element": "time",
+      "type": "Speed",
+      "job": "Warrior",
+      "role": "Assassin"
+   },
+   {
+      "name": "Tio Plato",
+      "title": "The Genius Girl",
+      "element": "earth",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Range Effect"
+   },
+   {
+      "name": "Towa Herschel",
+      "title": "The Student Council President",
+      "element": "earth",
+      "type": "Magic",
+      "job": "Supporter",
+      "role": "Buffer"
+   },
+   {
+      "name": "Klaudia von Auslese",
+      "title": "The Crown Princess",
+      "element": "water",
+      "type": "Power",
+      "job": "Warrior",
+      "role": "Assassin"
+   },
+   {
+      "name": "Ennea",
+      "title": "The Sharp",
+      "element": "water",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Alan Richard",
+      "title": "The President of R&A Research",
+      "element": "fire",
+      "type": "Power",
+      "job": "Ranger",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Randy Orlando",
+      "title": "The Red Reaper",
+      "element": "fire",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Garcia Rossi",
+      "title": "The Killing Bear",
+      "element": "fire",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Scherazard Harvey",
+      "title": "The Silver Streak",
+      "element": "wind",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Buffer"
+   },
+   {
+      "name": "Renne Bright",
+      "title": "The Angel of Slaughter",
+      "element": "wind",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Action Inhibition"
+   },
+   {
+      "name": "Lechter Arundel",
+      "title": "The Scarecrow",
+      "element": "wind",
+      "type": "Power",
+      "job": "Warrior",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Elie MacDowell",
+      "title": "The Special Support Section Assistant",
+      "element": "wind",
+      "type": "Magic",
+      "job": "Supporter",
+      "role": "Healer"
+   },
+   {
+      "name": "Duvalie",
+      "title": "The Swift",
+      "element": "wind",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Range Effect"
+   },
+   {
+      "name": "Fie Claussell",
+      "title": "Sylphid",
+      "element": "wind",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Assassin"
+   },
+   {
+      "name": "Rufus Albarea",
+      "title": "Jade Rook",
+      "element": "wind",
+      "type": "Power",
+      "job": "Warrior",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Rixia Mao",
+      "title": "Yin",
+      "element": "time",
+      "type": "Magic",
+      "job": "Supporter",
+      "role": "Debuffer"
+   },
+   {
+      "name": "Wazy Hemisphere",
+      "title": "The Sapphire Testament",
+      "element": "space",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Josette Capua",
+      "title": "The Capua Scion",
+      "element": "earth",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Action Inhibition"
+   },
+   {
+      "name": "Lloyd Bannings",
+      "title": "The Special Support Section Leader",
+      "element": "earth",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Noël Seeker",
+      "title": "The Crossbell Guardian Force Sergeant Major",
+      "element": "earth",
+      "type": "Power",
+      "job": "Ranger",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Michel",
+      "title": "The Crossbell Branch Receptionist",
+      "element": "earth",
+      "type": "Speed",
+      "job": "Supporter",
+      "role": "Buffer"
+   },
+   {
+      "name": "Lynn",
+      "title": "The Righteous Bracer",
+      "element": "earth",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Assassin"
+   },
+   {
+      "name": "Olivert Reise Arnor",
+      "title": "The Wandering Bard",
+      "element": "water",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Range Effect"
+   },
+   {
+      "name": "Mueller Vander",
+      "title": "The Imperial Army Major",
+      "element": "water",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Assassin"
+   },
+   {
+      "name": "Mireille",
+      "title": "The Crossbell Guardian Force Lieutenant",
+      "element": "water",
+      "type": "Magic",
+      "job": "Caster",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Aeolia",
+      "title": "The Righteous Bracer",
+      "element": "water",
+      "type": "Magic",
+      "job": "Supporter",
+      "role": "Buffer"
+   },
+   {
+      "name": "Rogan Mugart",
+      "title": "The Aurora Phenomenon",
+      "element": "water",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Agate Crosner",
+      "title": "The Heavy Blade",
+      "element": "fire",
+      "type": "Power",
+      "job": "Warrior",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Alex Dudley",
+      "title": "The Investigator",
+      "element": "fire",
+      "type": "Power",
+      "job": "Warrior",
+      "role": "Continuous Damage"
+   },
+   {
+      "name": "Altina Orion",
+      "title": "The Black Rabbit",
+      "element": "fire",
+      "type": "Speed",
+      "job": "Ranger",
+      "role": "Powerful Damage"
+   },
+   {
+      "name": "Alfin Reise Arnor",
+      "title": "The Princess of Erebonia",
+      "element": "fire",
+      "type": "Magic",
+      "job": "Supporter",
+      "role": "Healer"
+   },
+   {
+      "name": "Julia Schwarz",
+      "title": "The Royal Army Lieutenant Colonel",
+      "element": "wind",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Anelace Elfead",
+      "title": "The Eight Leaves One Blade User",
+      "element": "wind",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Kilika Rouran",
+      "title": "The Flying Swallow",
+      "element": "space",
+      "type": "Power",
+      "job": "Tank",
+      "role": "Life Leech"
+   },
+   {
+      "name": "Scott",
+      "title": "The Righteous Bracer",
+      "element": "space",
+      "type": "Speed",
+      "job": "Supporter",
+      "role": "Continuous Damage"
+   }
+]
