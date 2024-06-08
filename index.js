@@ -1,6 +1,29 @@
 var cdata;
 var nchara;
 
+function createNavBar(){
+   let navBarBox = document.createElement("div");
+   navBarBox.classList.add("topNavBar");
+
+   let firstLink = document.createElement("a");
+   firstLink.innerHTML = "Characters";
+   firstLink.classList.add("navBarActive");
+   firstLink.setAttribute("href", "index.html");
+   navBarBox.appendChild(firstLink);
+
+   let secondLink = document.createElement("a");
+   secondLink.innerHTML = "Equipment";
+   secondLink.classList.add("navBarInactive");
+   navBarBox.appendChild(secondLink);
+
+   let thirdLink = document.createElement("a");
+   thirdLink.innerHTML = "About";
+   thirdLink.classList.add("navBarInactive");
+   navBarBox.appendChild(thirdLink);
+
+   document.body.insertAdjacentElement("afterbegin", navBarBox);
+}
+
 async function getfile(file){
    let obj = await fetch(file);
    let txt = await obj.text();
@@ -62,9 +85,10 @@ function createAllCharaDivs(){
       let newCharaBloc = createCharaBloc(cdata[i]);
       firstDiv.appendChild(newCharaBloc);
    }
-   document.body.insertBefore(firstDiv, end);
+   document.body.insertBefore(firstDiv, end)
 }
 
 async function startUp(){
+   createNavBar();
    getfile("./charadata.json").then((cdata) => createAllCharaDivs());
 }
