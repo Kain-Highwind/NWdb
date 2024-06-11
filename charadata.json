@@ -5,7 +5,29 @@
       "element": "water",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Radiant Lion",
+         "lvl1": "Charge and enter a state with 50% damage reduction and immunity to control effects. Each time you take damage, increase ATK by 5% (α). Upon  completion of the charge, unleash \"Radiant Lion\", dealing 140% ATK damage + α damage to all enemies in front.<br><br>*α damage refers to the total damage increase accumulated while charing.",
+         "lvl2": "Charge and enter a state with 50% damage reduction and immunity to control effects. Each time you take damage, increase ATK by 5% (α). Upon  completion of the charge, unleash \"Radiant Lion\", dealing 160% ATK damage + α damage to all enemies in front.<br><br>*α damage refers to the total damage increase accumulated while charing.",
+         "lvl3": "Charge and enter a state with 50% damage reduction and immunity to control effects. Each time you take damage, increase ATK by 5% (α). Upon  completion of the charge, unleash \"Radiant Lion\", dealing 160% ATK damage + α damage to all enemies in front.<br>This skill absorbs 40% of the damage dealt to restore user's HP<br><br>*α damage refers to the total damage increase accumulated while charing.",
+         "lvl4": "Charge and enter a state with 50% damage reduction and immunity to control effects. Each time you take damage, increase ATK by 5% (α). Upon  completion of the charge, unleash \"Radiant Lion\", dealing 10% ATK damage + α damage to all enemies in front.<br>This skill absorbs 40% of the damage dealt to restore user's HP<br><br>*α damage refers to the total damage increase accumulated while charing."
+      },
+      "ability1":{
+         "name": "Armor Breaker",
+         "lvl1": "Strike one enemy in front, dealing 120% ATK damage and stunning them for 1 second.",
+         "lvl2": "Strike one enemy in front, dealing 140% ATK damage and stunning them for 1 second.",
+         "lvl3": "Strike one enemy in front, dealing 140% ATK damage and stunning them for 1 second. This skill absorbs 80% of the damage dealt to restore the user's HP.",
+         "lvl4": "Strike one enemy in front, dealing 160% ATK damage and stunning them for 1 second. This skill absorbs 80% of the damage dealt to restore the user's HP.",
+         "lvl5": "Strike one enemy in front, dealing 160% ATK damage and stunning them for 1 second. This skill absorbs 100% of the damage dealt to restore the user's HP."
+      },
+      "ability2":{
+         "name": "Concentration",
+         "lvl1": "After death, revive after a short delay and restore 60% of maximum HP.<br><br>*Can only be triggered once per battle.",
+         "lvl2": "After death, revive after a short delay and restore 60% of maximum HP.<br>Upon revival, stun nearby enemies for 3 seconds.<br><br>*Can only be triggered once per battle.",
+         "lvl3": "After death, revive after a short delay and restore 75% of maximum HP.<br>Upon revival, stun nearby enemies for 3 seconds.<br><br>*Can only be triggered once per battle.",
+         "lvl4": "After death, revive after a short delay and restore 75% of maximum HP.<br>Upon revival, stun nearby enemies for 3 seconds and increase own ATK and DEF by 20% for 10 seconds.<br><br>*Can only be triggered once per battle."
+      }
    },
    {
       "name": "Rean Schwarzer",
@@ -13,7 +35,29 @@
       "element": "time",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Assassin"
+      "role": "Assassin",
+      "sbreak":{
+         "name": "Azure Flame Slash",
+         "lvl1": "Deal 300% ATK damage to nearby enemies. When using S-Craft for the first time, increase Life Leech by 20 points and CP recovery rate by 30% until the end of the battle.",
+         "lvl2": "Deal 320% ATK damage to nearby enemies. When using S-Craft for the first time, increase Life Leech by 20 points and CP recovery rate by 30% until the end of the battle.",
+         "lvl3": "Deal 340% ATK damage to nearby enemies. When using S-Craft for the first time, increase Life Leech by 20 points and CP recovery rate by 30% until the end of the battle.",
+         "lvl4": "Deal 340% ATK damage to nearby enemies. When using S-Craft for the first time, increase Life Leech by 40 points and CP recovery rate by 50% until the end of the battle."
+      },
+      "ability1":{
+         "name": "Flame Dragon",
+         "lvl1": "Surround yourself with flames for 10 seconds. While active, deal 60% of ATK damage to nearby enemies every 0.5 seconds, reducing their DEF by 15% every 2 seconds. This effect stacks up to 5 layers.",
+         "lvl2": "Surround yourself with flames for 10 seconds. While active, deal 70% of ATK damage to nearby enemies every 0.5 seconds, reducing their DEF by 15% every 2 seconds. This effect stacks up to 5 layers.",
+         "lvl3": "Surround yourself with flames for 10 seconds. While active, deal 70% of ATK damage to nearby enemies every 0.5 seconds, reducing their DEF by 15% every 2 seconds. This effect stacks up to 5 layers. Additionally, reduce incoming damage by 20% while the flames are active.",
+         "lvl4": "Surround yourself with flames for 10 seconds. While active, deal 90% of ATK damage to nearby enemies every 0.5 seconds, reducing their DEF by 15% every 2 seconds. This effect stacks up to 5 layers. Additionally, reduce incoming damage by 20% while the flames are active.",
+         "lvl5": "Surround yourself with flames for 10 seconds. While active, deal 90% of ATK damage to nearby enemies every 0.5 seconds, reducing their DEF by 20% every 2 seconds. This effect stacks up to 5 layers. Additionally, reduce incoming damage by 20% while the flames are active."
+      },
+      "ability2":{
+         "name": "Gale",
+         "lvl1": "Mark and target the enemy with the highest ATK. Reduces damage taken from them by 30%. Once the initial target is defeated, Rean will mark a new one.",
+         "lvl2": "Mark and target the enemy with the highest ATK. Rean deals 40% more damage to the marked enemy and reduces damage taken from them by 30%. Once the initial target is defeated, Rean will mark a new one.",
+         "lvl3": "Mark and target the enemy with the highest ATK. Rean deals 40% more damage to the marked enemy and reduces damage taken from them by 30%. Once the initial target is defeated, Rean will mark a new one. Additionally, Rean gains a 20% damage reduction for 5 seconds",
+         "lvl4": "Mark and target the enemy with the highest ATK. Rean deals 40% more damage to the marked enemy and reduces damage taken from them by 30%. Once the initial target is defeated, Rean will mark a new one. Additionally, Rean gains a 20% damage reduction for 7 seconds"
+      }
    },
    {
       "name": "Elliot Craig",
@@ -21,7 +65,29 @@
       "element": "space",
       "type": "Magic",
       "job": "Supporter",
-      "role": "Buffer"
+      "role": "Buffer",
+      "sbreak":{
+         "name": "Redemtion Altar Song",
+         "lvl1": "All friendly characters increase their attack power by 15% for 6 seconds and gain 70 points of haste for 8 seconds.",
+         "lvl2": "All friendly characters increase their attack power by 15% for 6 seconds and gain 70 points of haste for 8 seconds. Remove the negative status of all our characters and make them immune to control effects for the next 4 seconds.",
+         "lvl3": "All friendly characters increase their attack power by 15% for 6 seconds and gain 70 points of haste for 12 seconds. Remove the negative status of all our characters and make them immune to control effects for the next 4 seconds.",
+         "lvl4": "All friendly characters increase their attack power by 15% for 6 seconds and gain 120 points of haste for 12 seconds. Remove the negative status of all our characters and make them immune to control effects for the next 4 seconds."
+      },
+      "ability1":{
+         "name": "Rotary Bell",
+         "lvl1": "Give the ally with the lowest HP \"Melody of the Stars\" and the ally with the highest HP \"Melody of the Moon\".<br> (Star Melody: Restores 130% of Elliot's attack power as HP.)<br> (Melody of the Moon: Restores 4 points of CP.)",
+         "lvl2": "Give the ally with the lowest HP \"Melody of the Stars\" and the ally with the highest HP \"Melody of the Moon\".<br> (Star Melody: Restores 140% of Elliot's attack power as HP.)<br> (Melody of the Moon: Restores 5 points of CP.)",
+         "lvl3": "Give the ally with the lowest HP \"Melody of the Stars\" and the ally with the highest HP \"Melody of the Moon\".<br> (Star Melody: Restores 150% of Elliot's attack power as HP.)<br> (Melody of the Moon: Restores 6 points of CP.)",
+         "lvl4": "Give the ally with the lowest HP \"Melody of the Stars\" and the ally with the highest HP \"Melody of the Moon\".<br> (Star Melody: Restores 160% of Elliot's attack power as HP.)<br> (Melody of the Moon: Restores 7 points of CP.)",
+         "lvl5": "Give the ally with the lowest HP \"Melody of the Stars\" and the ally with the highest HP \"Melody of the Moon\".<br> (Star Melody: Restores 170% of Elliot's attack power as HP.)<br> (Melody of the Moon: Restores 8 points of CP.)"
+      },
+      "ability2":{
+         "name": "Resonance Rhythm",
+         "lvl1": "Two allies with \"Melody of the Stars\" and \"Melody of the Moon\" will sing harmonies with resonant rhythms within 5 seconds.<br> When any one of the two peopke in the concert is injured, 30% of the damage suffered will be borne by the other party.",
+         "lvl2": "Two allies with \"Melody of the Stars\" and \"Melody of the Moon\" will sing harmonies with resonant rhythms within 5 seconds.<br> When any one of the two peopke in the concert is injured, 30% of the damage suffered will be borne by the other party.<br>When any one of the two people in the chorus causes a critical hit, the other person will recover 3% of their maximum health.",
+         "lvl3": "Two allies with \"Melody of the Stars\" and \"Melody of the Moon\" will sing harmonies with resonant rhythms within 5 seconds.<br> When any one of the two peopke in the concert is injured, 30% of the damage suffered will be borne by the other party.<br>When any one of the two people in the chorus causes a critical hit, the other person will recover 3% of their maximum health.<br>When any one of the two players kills the enemy, the other person will receive 20CP.",
+         "lvl4": "Two allies with \"Melody of the Stars\" and \"Melody of the Moon\" will sing harmonies with resonant rhythms within 5 seconds.<br> When any one of the two peopke in the concert is injured, 30% of the damage suffered will be borne by the other party.<br>When any one of the two people in the chorus causes a critical hit, the other person will recover 3% of their maximum health.<br>When any one of the two players kills the enemy, the other person will receive 20CP.<br>When any of the two players dies, the other party will receive 40% of their remaining CP."
+      }
    },
    {
       "name": "Claire Rieveldt",
@@ -29,7 +95,29 @@
       "element": "water",
       "type": "Magic",
       "job": "Caster",
-      "role": "Range Effect"
+      "role": "Range Effect",
+      "sbreak":{
+         "name": "Kaleido Force",
+         "lvl1": "Deal continuous damage to a large area of enemies at a rate of 70% of ATK per second. Additionally, restore 50% of the damage dealt as HP to oneself. Lasts for 12 seconds.",
+         "lvl2": "Deal continuous damage to a large area of enemies at a rate of 80% of ATK per second. Additionally, restore 60% of the damage dealt as HP to oneself. Lasts for 12 seconds.",
+         "lvl3": "Deal continuous damage to a large area of enemies at a rate of 90% of ATK per second. Additionally, restore 70% of the damage dealt as HP to oneself. Lasts for 12 seconds.",
+         "lvl4": "Deal continuous damage to a large area of enemies at a rate of 100% of ATK per second. Additionally, restore 80% of the damage dealt as HP to oneself. Lasts for 12 seconds."
+      },
+      "ability1":{
+         "name": "Frigid Rain",
+         "lvl1": "Target one enemy with magic attacks, dealing 100% ATK damage and silencing them for 2 seconds.",
+         "lvl2": "Target one enemy with magic attacks, dealing 130% ATK damage and silencing them for 2 seconds. The duration of silence increases based on the user's remaining HP, with a maximum of 7 seconds.",
+         "lvl3": "Target one enemy with magic attacks, dealing 150% ATK damage and silencing them for 2 seconds. The duration of silence increases based on the user's remaining HP, with a maximum of 7 seconds.",
+         "lvl4": "Target one enemy with magic attacks, dealing 170% ATK damage and silencing them for 2 seconds. The duration of silence increases based on the user's remaining HP, with a maximum of 7 seconds.",
+         "lvl5": "Target one enemy with magic attacks, dealing 190% ATK damage and silencing them for 2 seconds. The duration of silence increases based on the user's remaining HP, with a maximum of 7 seconds."
+      },
+      "ability2":{
+         "name": "Mortal Mirage",
+         "lvl1": "Boosts the user based on the amount of remaining HP, granting up to 30% ATK.",
+         "lvl2": "Boosts the user based on the amount of remaining HP, granting up to 30% ATK and 30% CRI rate.",
+         "lvl3": "Boosts the user based on the amount of remaining HP, granting up to 40% ATK and 30% CRI rate.",
+         "lvl4": "Boosts the user based on the amount of remaining HP, granting up to 40% ATK and 40% CRI rate."
+      }
    },
    {
       "name": "Sigmund Orlando",
@@ -37,7 +125,29 @@
       "element": "fire",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Crimson Fall",
+         "lvl1": "Perform 5 consecutive strikes, each dealing 40% ATK area damage to nearby enemies.",
+         "lvl2": "Perform 5 consecutive strikes, each dealing 40% ATK area damage to nearby enemies. During the attack, become immune to damage from magician enemies.",
+         "lvl3": "Perform 5 consecutive strikes, each dealing 40% ATK area damage to nearby enemies. During the attack, become immune to damage from magician enemies. This skill restores HP equal to 30% of the damage dealt.",
+         "lvl4": "Perform 5 consecutive strikes, each dealing 40% ATK area damage to nearby enemies. During the attack, become immune to damage from magician enemies. This skill restores HP equal to 45% of the damage dealt."
+      },
+      "ability1":{
+         "name": "Ogre's Rage",
+         "lvl1": "Attack increases as HP decreases, up to a maximum of 90%",
+         "lvl2": "Attack increases as HP decreases, up to a maximum of 110%",
+         "lvl3": "Attack increases as HP decreases, up to a maximum of 130%",
+         "lvl4": "Attack increases as HP decreases, up to a maximum of 150%",
+         "lvl5": "Attack increases as HP decreases, up to a maximum of 170%"
+      },
+      "ability2":{
+         "name": "Ogre's Body",
+         "lvl1": "HP remains at 1 point when receiving damage that would reduce HP to 0 and become immune to all damage for 4 seconds. This effect triggers once per battle.",
+         "lvl2": "HP remains at 1 point when receiving damage that would reduce HP to 0 and become immune to all damage for 7 seconds. This effect triggers once per battle.",
+         "lvl3": "HP remains at 1 point when receiving damage that would reduce HP to 0 and become immune to all damage for 8 seconds. This effect triggers once per battle.",
+         "lvl4": "HP remains at 1 point when receiving damage that would reduce HP to 0 and become immune to all damage for 8 seconds. This effect triggers once per battle, restoring 80 CP upon activation."
+      }
    },
    {
       "name": "Ries Argent",
@@ -45,7 +155,29 @@
       "element": "earth",
       "type": "Magic",
       "job": "Supporter",
-      "role": "Buffer"
+      "role": "Buffer",
+      "sbreak":{
+         "name": "Holy Blessing",
+         "lvl1": "Summon a Holy Star upon all allies within range. Allies receiving the Holy Star recover 20 CP and gain a 30% increase in ATK for 8 seconds. Enemies struck by the Holy Star are stunned for 2 seconds.",
+         "lvl2": "Summon a Holy Star upon all allies within range. Allies receiving the Holy Star recover 30 CP and gain a 30% increase in ATK for 8 seconds. Enemies struck by the Holy Star are stunned for 2 seconds.",
+         "lvl3": "Summon a Holy Star upon all allies within range. Allies receiving the Holy Star recover 40 CP and gain a 30% increase in ATK for 8 seconds. Enemies struck by the Holy Star are stunned for 2 seconds.",
+         "lvl4": "Summon a Holy Star upon all allies within range. Allies receiving the Holy Star recover 40 CP and gain a 30% increase in ATK for 8 seconds. Enemies struck by the Holy Star are stunned for 4 seconds."
+      },
+      "ability1":{
+         "name": "Arc Fencer",
+         "lvl1": "Attack the nearest enemy, dealing damage equal to 180% of ATK, while also stealing 8 CP from the enemy and reducing their HIT by 12 for 10",
+         "lvl2": "Attack the nearest enemy, dealing damage equal to 200% of ATK, while also stealing 8 CP from the enemy and reducing their HIT by 12 for 10",
+         "lvl3": "Attack the nearest enemy, dealing damage equal to 200% of ATK, while also stealing 12 CP from the enemy and reducing their HIT by 12 for 10",
+         "lvl4": "Attack the nearest enemy, dealing damage equal to 220% of ATK, while also stealing 12 CP from the enemy and reducing their HIT by 12 for 10",
+         "lvl5": "Attack the nearest enemy, dealing damage equal to 220% of ATK, while also stealing 12 CP from the enemy and reducing their HIT by 15 for 10"
+      },
+      "ability2":{
+         "name": "Heavenly Sphere",
+         "lvl1": "When receiving damage exceeding 10% maximum HP, consume 8 CP to completely negate the damage.<br>This effect can trigger every 3 seconds.",
+         "lvl2": "When receiving damage exceeding 10% maximum HP, consume 8 CP to completely negate the damage.<br>This effect can trigger every 3 seconds.<br>Additionally, regenerate 2 CP per second during battle.",
+         "lvl3": "When receiving damage exceeding 10% maximum HP, consume 5 CP to completely negate the damage.<br>This effect can trigger every 3 seconds.<br>Additionally, regenerate 2 CP per second during battle.",
+         "lvl4": "When receiving damage exceeding 10% maximum HP, consume 3 CP to completely negate the damage.<br>This effect can trigger every 3 seconds.<br>Additionally, regenerate 2 CP per second during battle."
+      }
    },
    {
       "name": "Zin Vathek",
@@ -53,7 +185,29 @@
       "element": "earth",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Arhat Palm Strike",
+         "lvl1": "Deal 140% ATK damage to surrounding enemies and stun them for 1 second. During this battle, for every 30% of the user's maximum HP lost, the stun duration is extended by 1 second, up to a maximum additonal duration of 4 seconds.",
+         "lvl2": "Deal 160% ATK damage to surrounding enemies and stun them for 1 second. During this battle, for every 30% of the user's maximum HP lost, the stun duration is extended by 1 second, up to a maximum additonal duration of 4 seconds.",
+         "lvl3": "Deal 180% ATK damage to surrounding enemies and stun them for 1 second. During this battle, for every 30% of the user's maximum HP lost, the stun duration is extended by 1 second, up to a maximum additonal duration of 4 seconds.",
+         "lvl4": "Deal 200% ATK damage to surrounding enemies and stun them for 1 second. During this battle, for every 30% of the user's maximum HP lost, the stun duration is extended by 1 second, up to a maximum additonal duration of 4 seconds."
+      },
+      "ability1":{
+         "name": "Thunderous Kick",
+         "lvl1": "Deal 130% ATK damage to one enemy, causing them to be stunned for 1 second and slightly knocked back.",
+         "lvl2": "Deal 150% ATK damage to one enemy, causing them to be stunned for 1 second and slightly knocked back.",
+         "lvl3": "Deal 150% ATK damage to one enemy, causing them to be stunned for 1 second and slightly knocked back.<br>Additionally, reduces the enemy's damage dealt by 40% for 5 seconds.",
+         "lvl4": "Deal 180% ATK damage to one enemy, causing them to be stunned for 1 second and slightly knocked back.<br>Additionally, reduces the enemy's damage dealt by 40% for 5 seconds.",
+         "lvl5": "Deal 180% ATK damage to one enemy, causing them to be stunned for 1 second and slightly knocked back.<br>Additionally, reduces the enemy's damage dealt by 60% for 5 seconds."
+      },
+      "ability2":{
+         "name": "Distend",
+         "lvl1": "Once per battle, when an ally receives fatal damage, endure all damage on their behalf for 10 seconds.",
+         "lvl2": "Once per battle, when an ally receives fatal damage, endure all damage on their behalf for 10 seconds.<br>During this protective period, become immune to crowd control effects and reduce damage taken by 40%.",
+         "lvl3": "Once per battle, when an ally receives fatal damage, endure all damage on their behalf for 10 seconds.<br>During this protective period, become immune to crowd control effects and reduce damage taken by 60%.",
+         "lvl4": "Once per battle, when an ally receives fatal damage, endure all damage on their behalf for 10 seconds.<br>During this protective period, become immune to crowd control effects and reduce damage taken by 70%."
+      }
    },
    {
       "name": "Kevin Graham",
@@ -61,7 +215,29 @@
       "element": "space",
       "type": "Speed",
       "job": "Supporter",
-      "role": "Healer"
+      "role": "Healer",
+      "sbreak":{
+         "name": "Grail Sphere",
+         "lvl1": "Deploy the Grail Sphere, granting a 25% increase in ATK and a 25 increase in SPD to the ally with the highest ATK.<br>This effect persists until the end of the battle, and the user gains the effect of \"Sacrifice Arrow\".",
+         "lvl2": "Deploy the Grail Sphere, granting a 35% increase in ATK and a 35 increase in SPD to the ally with the highest ATK.<br>This effect persists until the end of the battle, and the user gains the effect of \"Sacrifice Arrow\".",
+         "lvl3": "Deploy the Grail Sphere, granting a 40% increase in ATK and a 40 increase in SPD to the ally with the highest ATK.<br>This effect persists until the end of the battle, and the user gains the effect of \"Sacrifice Arrow\".",
+         "lvl4": "Deploy the Grail Sphere, granting a 45% increase in ATK and a 45 increase in SPD to the ally with the highest ATK.<br>This effect persists until the end of the battle, and the user gains the effect of \"Sacrifice Arrow\"."
+      },
+      "ability1":{
+         "name": "Sacrifice Arrow",
+         "lvl1": "Normal Attacks steal 4% of enemy's current HP and 10% of their current shield value. This effect can trigger on each enemy once every 1.5 seconds.<br>The stolen HP cannot exceed 220% of the user's ATK.",
+         "lvl2": "Normal Attacks steal 4% of enemy's current HP and 10% of their current shield value. This effect can trigger on each enemy once every 1.5 seconds.<br>The stolen HP cannot exceed 220% of the user's ATK.<br>Additionally, it steals 5 CP from the enemy.",
+         "lvl3": "Normal Attacks steal 6% of enemy's current HP and 15% of their current shield value. This effect can trigger on each enemy once every 1.5 seconds.<br>The stolen HP cannot exceed 220% of the user's ATK.<br>Additionally, it steals 5 CP from the enemy.",
+         "lvl4": "Normal Attacks steal 8% of enemy's current HP and 20% of their current shield value. This effect can trigger on each enemy once every 1.5 seconds.<br>The stolen HP cannot exceed 220% of the user's ATK.<br>Additionally, it steals 5 CP from the enemy.",
+         "lvl5": "Normal Attacks steal 10% of enemy's current HP and 25% of their current shield value. This effect can trigger on each enemy once every 1.5 seconds.<br>The stolen HP cannot exceed 220% of the user's ATK.<br>Additionally, it steals 5 CP from the enemy."
+      },
+      "ability2":{
+         "name": "Sacred Breath",
+         "lvl1": "Sacrifice 10% of the user's current HP to heal the ally with the lowest HP (excluding summons).<br>The amount of healing restored is 2x the HP sacrificed.",
+         "lvl2": "Sacrifice 10% of the user's current HP to heal the ally with the lowest HP (excluding summons).<br>The amount of healing restored is 3x the HP sacrificed.",
+         "lvl3": "Sacrifice 10% of the user's current HP to heal the ally with the lowest HP (excluding summons).<br>The amount of healing restored is 4x the HP sacrificed.",
+         "lvl4": "Sacrifice 10% of the user's current HP to heal the ally with the lowest HP (excluding summons).<br>The amount of healing restored is 5x the HP sacrificed."
+      }
    },
    {
       "name": "Alisa Reinford",
@@ -69,7 +245,29 @@
       "element": "fire",
       "type": "Magic",
       "job": "Caster",
-      "role": "Range Effect"
+      "role": "Range Effect",
+      "sbreak":{
+         "name": "Molten Rain",
+         "lvl1": "Unleash three consecutive five arrows at the enemy. The first arrow inflicts 120% ATK damage in a small area, the second arrow deals 180% ATK damage in a medium area, and the third arrow deals 240% ATK damage in a large area.",
+         "lvl2": "Unleash three consecutive five arrows at the enemy. The first arrow inflicts 140% ATK damage in a small area, the second arrow deals 200% ATK damage in a medium area, and the third arrow deals 260% ATK damage in a large area.",
+         "lvl3": "Unleash three consecutive five arrows at the enemy. The first arrow inflicts 160% ATK damage in a small area, the second arrow deals 220% ATK damage in a medium area, and the third arrow deals 280% ATK damage in a large area.",
+         "lvl4": "Unleash three consecutive five arrows at the enemy. The first arrow inflicts 180% ATK damage in a small area, the second arrow deals 240% ATK damage in a medium area, and the third arrow deals 300% ATK damage in a large area."
+      },
+      "ability1":{
+         "name": "Flamberge",
+         "lvl1": "Unleash a Flamberge arrow at a single enemy, dealing 150% ATK damage to that enemy and to enemies within a fan-shaped area behind them. Additionally, there is a 30% stun chance for 1 second.",
+         "lvl2": "Unleash a Flamberge arrow at a single enemy, dealing 170% ATK damage to that enemy and to enemies within a fan-shaped area behind them. Additionally, there is a 30% stun chance for 1 second.",
+         "lvl3": "Unleash a Flamberge arrow at a single enemy, dealing 170% ATK damage to that enemy and to enemies within a fan-shaped area behind them. Additionally, there is a 30% stun chance for 1 second. The fan-shaped area expands.",
+         "lvl4": "Unleash a Flamberge arrow at a single enemy, dealing 210% ATK damage to that enemy and to enemies within a fan-shaped area behind them. Additionally, there is a 30% stun chance for 1 second. The fan-shaped area expands.",
+         "lvl5": "Unleash a Flamberge arrow at a single enemy, dealing 210% ATK damage to that enemy and to enemies within a fan-shaped area behind them. Additionally, there is a 30% stun chance for 2 seconds. The fan-shaped area expands."
+      },
+      "ability2":{
+         "name": "Heaven's Blessing",
+         "lvl1": "At the start of the battle, receive Heaven's Blessing, increasing the ATK of allies within range by 16% for 20 seconds.",
+         "lvl2": "At the start of the battle, receive Heaven's Blessing, increasing the ATK of allies within range by 20% for 20 seconds.",
+         "lvl3": "At the start of the battle, receive Heaven's Blessing, increasing the ATK of allies within range by 24% for 20 seconds.",
+         "lvl4": "At the start of the battle, receive Heaven's Blessing, increasing the ATK of allies within range by 24% for 30 seconds."
+      }
    },
    {
       "name": "Shirley Orlando",
@@ -77,7 +275,29 @@
       "element": "time",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "death parade",
+         "lvl1": "After causing ATKx270% damage to the enemy, a \"Blocking Action\" lasting for 3 seconds will be performed.<br> (Blocked action: unable to move, unable to use combat skills and magic.)",
+         "lvl2": "After causing ATKx300% damage to the enemy, a \"Blocking Action\" lasting for 3 seconds will be performed.<br> (Blocked action: unable to move, unable to use combat skills and magic.)",
+         "lvl3": "After causing ATKx330% damage to the enemy, a \"Blocking Action\" lasting for 3 seconds will be performed.<br> (Blocked action: unable to move, unable to use combat skills and magic.)",
+         "lvl4": "After causing ATKx270% damage to the enemy, a \"Blocking Action\" lasting for 7 seconds will be performed.<br> (Blocked action: unable to move, unable to use combat skills and magic.)"
+      },
+      "ability1":{
+         "name": "Fire Charge",
+         "lvl1": "Gain a shield of 10% of maximum HP for 7 seconds, and inflict damage equal to 15% of Shelly's current HP to enemies in a fan-shaped area in front. Then reduce SPD by 50 points for 7 seconds.",
+         "lvl2": "Gain a shield of 12% of maximum HP for 7 seconds, and inflict damage equal to 15% of Shelly's current HP to enemies in a fan-shaped area in front. Then reduce SPD by 50 points for 7 seconds.",
+         "lvl3": "Gain a shield of 14% of maximum HP for 7 seconds, and inflict damage equal to 15% of Shelly's current HP to enemies in a fan-shaped area in front. Then reduce SPD by 50 points for 7 seconds.",
+         "lvl4": "Gain a shield of 14% of maximum HP for 7 seconds, and inflict damage equal to 20% of Shelly's current HP to enemies in a fan-shaped area in front. Then reduce SPD by 50 points for 7 seconds.",
+         "lvl5": "Gain a shield of 16% of maximum HP for 7 seconds, and inflict damage equal to 20% of Shelly's current HP to enemies in a fan-shaped area in front. Then reduce SPD by 50 points for 7 seconds."
+      },
+      "ability2":{
+         "name": "Death spreads",
+         "lvl1": "At the beginning of the battle, the self-immunity control effect is given, and the maximum HP value is increased by 80%.<br><br> After that, for 40 seconds, the blood volume will be reduced by 1% of the maximum HP every second.",
+         "lvl2": "At the beginning of the battle, the self-immunity control effect is given, and the maximum HP value is increased by 80%.<br><br> After that, for 40 seconds, the blood volume will be reduced by 1% of the maximum HP every second. Moreover, the higher the current blood volume, the higher the DEF, and the DEF can be increased up to 100%.",
+         "lvl3": "At the beginning of the battle, the self-immunity control effect is given, and the maximum HP value is increased by 80%.<br><br> After that, for 40 seconds, the blood volume will be reduced by 1% of the maximum HP every second. Moreover, the higher the current blood volume, the higher the DEF, and the DEF can be increased up to 180%.",
+         "lvl4": "At the beginning of the battle, the self-immunity control effect is given, and the maximum HP value is increased by 100%.<br><br> After that, for 40 seconds, the blood volume will be reduced by 1% of the maximum HP every second. Moreover, the higher the current blood volume, the higher the DEF, and the DEF can be increased up to 100%."
+      }
    },
    {
       "name": "Estelle Bright",
@@ -85,7 +305,29 @@
       "element": "fire",
       "type": "Magic",
       "job": "Caster",
-      "role": "Powerful Damage"
+      "role": "Powerful Damage",
+      "sbreak":{
+         "name": "Barrage",
+         "lvl1": "Deal area damage equal to 240% of ATK to enemies in the front.",
+         "lvl2": "Deal area damage equal to 280% of ATK to enemies in the front.",
+         "lvl3": "Deal area damage equal to 320% of ATK to enemies in the front.",
+         "lvl4": "Deal area damage equal to 380% of ATK to enemies in the front."
+      },
+      "ability1":{
+         "name": "Hundred Blows",
+         "lvl1": "Attaches a Flame Seed to the enemy in the front, dealing damage equal to 1% of the enemy's maximum HP per second.<br>When the HP of the corresponding enemy falls below 25%, the Flame Seed explodes, causing area damage equal to 300% of ATK.",
+         "lvl2": "Attaches a Flame Seed to the enemy in the front, dealing damage equal to 1% of the enemy's maximum HP per second.<br>When the HP of the corresponding enemy falls below 25%, the Flame Seed explodes, causing area damage equal to 300% of ATK and stunning enemies for 2 seconds.",
+         "lvl3": "Attaches a Flame Seed to the enemy in the front, dealing damage equal to 1% of the enemy's maximum HP per second.<br>When the HP of the corresponding enemy falls below 25%, the Flame Seed explodes, causing area damage equal to 330% of ATK and stunning enemies for 2 seconds.",
+         "lvl4": "Attaches a Flame Seed to the enemy in the front, dealing damage equal to 2% of the enemy's maximum HP per second.<br>When the HP of the corresponding enemy falls below 25%, the Flame Seed explodes, causing area damage equal to 330% of ATK and stunning enemies for 2 seconds.",
+         "lvl5": "Attaches a Flame Seed to the enemy in the front, dealing damage equal to 2% of the enemy's maximum HP per second.<br>When the HP of the corresponding enemy falls below 25%, the Flame Seed explodes, causing area damage equal to 330% of ATK and stunning enemies for 3 seconds."
+      },
+      "ability2":{
+         "name": "Maiden's Fighting Spirit",
+         "lvl1": "Enhances normal attacks to deal 120% of ATK as area damage twice to enemies in the front.",
+         "lvl2": "Enhances normal attacks to deal 130% of ATK as area damage twice to enemies in the front.",
+         "lvl3": "Enhances normal attacks to deal 120% of ATK as area damage twice to enemies in the front. Additionally, 25% of the damage dealt will be recovered as HP.",
+         "lvl4": "Enhances normal attacks to deal 140% of ATK as area damage twice to enemies in the front. Additionally, 25% of the damage dealt will be recovered as HP."
+      }
    },
    {
       "name": "Joshua Bright",
@@ -93,7 +335,29 @@
       "element": "time",
       "type": "Speed",
       "job": "Warrior",
-      "role": "Assassin"
+      "role": "Assassin",
+      "sbreak":{
+         "name": "Phantom Raid",
+         "lvl1": "Conceal in the shadows for 4 seconds, recovering 14% of max HP per second.<br>Return to the battlefield and deal 320% of ATK to the weakest enemy upon reaching full health or when the duration ends.",
+         "lvl2": "Conceal in the shadows for 4 seconds, recovering 14% of max HP per second.<br>Return to the battlefield and deal 320% of ATK to the weakest enemy upon reaching full health or when the duration ends. Upon receiving lethal damage for the first time, gain 1 second of immunity to death, and receive 100 CP while removing all negative effects.",
+         "lvl3": "Conceal in the shadows for 4 seconds, recovering 15% of max HP per second.<br>Return to the battlefield and deal 320% of ATK to the weakest enemy upon reaching full health or when the duration ends. Upon receiving lethal damage for the first time, gain 1 second of immunity to death, and receive 100 CP while removing all negative effects.",
+         "lvl4": "Conceal in the shadows for 4 seconds, recovering 18% of max HP per second.<br>Return to the battlefield and deal 320% of ATK to the weakest enemy upon reaching full health or when the duration ends. Upon receiving lethal damage for the first time, gain 1 second of immunity to death, and receive 100 CP while removing all negative effects."
+      },
+      "ability1":{
+         "name": "Twin Shadow Fang",
+         "lvl1": "With the clone's coordination, deal multiple instances of 50% ATK to an enemy.<br>The final strike deals 180% ATK to enemies in a straight line.",
+         "lvl2": "With the clone's coordination, deal multiple instances of 50% ATK to an enemy.<br>The final strike deals 200% ATK to enemies in a straight line.",
+         "lvl3": "With the clone's coordination, deal multiple instances of 50% ATK to an enemy.<br>The final strike deals 220% ATK to enemies in a straight line.",
+         "lvl4": "With the clone's coordination, deal multiple instances of 50% ATK to an enemy.<br>The final strike deals 240% ATK to enemies in a straight line.",
+         "lvl5": "With the clone's coordination, deal multiple instances of 50% ATK to an enemy.<br>The final strike deals 260% ATK to enemies in a straight line."
+      },
+      "ability2":{
+         "name": "Evil Eye",
+         "lvl1": "Joshua gains immunity to position changes. This skill activates only once per battlewhen Joshua is about to die, and all other alles have been defeated.<br>It resets both allies and enemies to the initial state of the battle. After the battle resets, all allies will receive a 15% increase in ATK for 12 seconds.<br><br>*This skill may not be effective in certain game modes.",
+         "lvl2": "Joshua gains immunity to position changes and 25% damage reduction until the skill is activated. This skill activates only once per battlewhen Joshua is about to die, and all other alles have been defeated.<br>It resets both allies and enemies to the initial state of the battle. After the battle resets, all allies will receive a 15% increase in ATK for 12 seconds.<br><br>*This skill may not be effective in certain game modes.",
+         "lvl3": "Joshua gains immunity to position changes and 25% damage reduction until the skill is activated. This skill activates only once per battlewhen Joshua is about to die, and all other alles have been defeated.<br>It resets both allies and enemies to the initial state of the battle. After the battle resets, all allies will receive a 15% increase in ATK and a 40 increase in SPD for 12 seconds.<br><br>*This skill may not be effective in certain game modes.",
+         "lvl4": "Joshua gains immunity to position changes and 25% damage reduction until the skill is activated. This skill activates only once per battlewhen Joshua is about to die, and all other alles have been defeated.<br>It resets both allies and enemies to the initial state of the battle. After the battle resets, all allies will receive a 15% increase in ATK and a 40 increase in SPD for 12 seconds, along with 5 seconds of immunity to control effects.<br><br>*This skill may not be effective in certain game modes."
+      }
    },
    {
       "name": "Tio Plato",
@@ -101,7 +365,29 @@
       "element": "earth",
       "type": "Magic",
       "job": "Caster",
-      "role": "Range Effect"
+      "role": "Range Effect",
+      "sbreak":{
+         "name": "Ether Buster",
+         "lvl1": "Unleash a devastating attack, dealing 440% ATK damage in a straight line.",
+         "lvl2": "Unleash a devastating attack, dealing 500% ATK damage in a straight line.",
+         "lvl3": "Unleash a devastating attack, dealing 560% ATK damage in a straight line.",
+         "lvl4": "Unleash a devastating attack, dealing 620% ATK damage in a straight line."
+      },
+      "ability1":{
+         "name": "Ether Explosion",
+         "lvl1": "Release compressed energy, causing an explosion upon impact with the ground, dealing 160% ATK damage in an area.",
+         "lvl2": "Release compressed energy, causing an explosion upon impact with the ground, dealing 180% ATK damage in an area.",
+         "lvl3": "Release compressed energy, causing an explosion upon impact with the ground, dealing 180% ATK damage in an area.<br>Enemies hit by the explosion have their accuracy reduced by 30% for 4 seconds.",
+         "lvl4": "Release compressed energy, causing an explosion upon impact with the ground, dealing 210% ATK damage in an area.<br>Enemies hit by the explosion have their accuracy reduced by 30% for 4 seconds.",
+         "lvl5": "Release compressed energy, causing an explosion upon impact with the ground, dealing 240% ATK damage in an area.<br>Enemies hit by the explosion have their accuracy reduced by 30% for 4 seconds."
+      },
+      "ability2":{
+         "name": "Energy Circle",
+         "lvl1": "Provide a buff to the ally with the highest ATK, increasing ATK and CRIT rate by 10% for 8 seconds.",
+         "lvl2": "Provide a buff to the ally with the highest ATK, increasing ATK and CRIT rate by 15% for 8 seconds.",
+         "lvl3": "Provide a buff to the ally with the highest ATK, increasing ATK and CRIT rate by 20% for 8 seconds.",
+         "lvl4": "Provide a buff to the ally with the highest ATK, increasing ATK and CRIT rate by 20% for 8 seconds. During the buff's duration, each instance of dealing damage increases damage dealt by 15%, stacking up to 4 times."
+      }
    },
    {
       "name": "Towa Herschel",
@@ -109,7 +395,29 @@
       "element": "earth",
       "type": "Magic",
       "job": "Supporter",
-      "role": "Buffer"
+      "role": "Buffer",
+      "sbreak":{
+         "name": "Rainbow Shot",
+         "lvl1": "Restore the energy of the teammate with the highest combat power to the upper limit. The more energy your teammates recover, the more energy you consume but at least 20 CP points are consumed. If the teammate's CP is full, the S combat skill will not be used.",
+         "lvl2": "Restore the energy of the teammate with the highest combat power to the upper limit. The more energy your teammates recover, the more energy you consume but at least 20 CP points are consumed. If the teammate's CP is full, the S combat skill will not be used. When used, the teammate's attack power will be increased by 40% for 4 seconds. This effect cannot be stacked.",
+         "lvl3": "Restore the energy of the teammate with the highest combat power to the upper limit. The more energy your teammates recover, the more energy you consume but at least 20 CP points are consumed. If the teammate's CP is full, the S combat skill will not be used. When used, the teammate's attack power will be increased by 60% for 4 seconds. This effect cannot be stacked.",
+         "lvl4": "Restore the energy of the teammate with the highest combat power to the upper limit. The more energy your teammates recover, the more energy you consume but at least 20 CP points are consumed. If the teammate's CP is full, the S combat skill will not be used. When used, the teammate's attack power will be increased by 60% for 8 seconds. This effect cannot be stacked."
+      },
+      "ability1":{
+         "name": "Shooting Stars",
+         "lvl1": "Causes 2 times of 100% attack power damage to the enemy. The last hit will cause an additional 0.5 seconds stun. Priority will be given to attacking the enemy being attacked by the teammate with the highest combat power.",
+         "lvl2": "Causes 3 times of 100% attack power damage to the enemy. The last hit will cause an additional 0.5 seconds stun. Priority will be given to attacking the enemy being attacked by the teammate with the highest combat power.",
+         "lvl3": "Causes 2 times of 100% attack power damage to the enemy. The last hit will cause an additional 0.5 seconds stun and causes an additional 15% of the target's current health as damage. Priority will be given to attacking the enemy being attacked by the teammate with the highest combat power.",
+         "lvl4": "Causes 2 times of 120% attack power damage to the enemy. The last hit will cause an additional 0.5 seconds stun and causes an additional 15% of the target's current health as damage. Priority will be given to attacking the enemy being attacked by the teammate with the highest combat power.",
+         "lvl5": "Causes 2 times of 100% attack power damage to the enemy. The last hit will cause an additional 0.5 seconds stun, increases target's damage by 40% for the next 4 seconds, and causes an additional 15% of the target's current health as damage. Priority will be given to attacking the enemy being attacked by the teammate with the highest combat power."
+      },
+      "ability2":{
+         "name": "Energy Rain",
+         "lvl1": "Heals the life of the teammate with the highest combat power for 150% of his attack power.",
+         "lvl2": "Heals the life of the teammate with the highest combat power for 150% of his attack power. Each time this skill is successfully used, it will increase its own HP R. by 17 points, which can be stacked up to 6 times.",
+         "lvl3": "Heals the life of the teammate with the highest combat power for 170% of his attack power. Each time this skill is successfully used, it will increase its own HP R. by 17 points, which can be stacked up to 6 times.",
+         "lvl4": "Heals the life of the teammate with the highest combat power for 190% of his attack power. Each time this skill is successfully used, it will increase its own HP R. by 17 points, which can be stacked up to 6 times."
+      }
    },
    {
       "name": "Klaudia von Auslese",
@@ -117,7 +425,29 @@
       "element": "water",
       "type": "Power",
       "job": "Warrior",
-      "role": "Assassin"
+      "role": "Assassin",
+      "sbreak":{
+         "name": "Sanctus Nova",
+         "lvl1": "Deal 110% ATK damage to the target, ignoring defense. If the target's HP is below 40%, deal 6 times the damage.<br><br>*In Auto mode, this skill will not target enemies with HP greater than 40%.",
+         "lvl2": "Deal 110% ATK damage to the target, ignoring defense. If the target's HP is below 40%, deal 6 times the damage.<br><br>*In Auto mode, this skill will not target enemies with HP greater than 40%.",
+         "lvl3": "Deal 110% ATK damage to the target, ignoring defense. If the target's HP is below 40%, deal 6 times the damage.<br><br>*In Auto mode, this skill will not target enemies with HP greater than 40%.",
+         "lvl4": "Deal 110% ATK damage to the target, ignoring defense. If the target's HP is below 40%, deal 6 times the damage.<br><br>*In Auto mode, this skill will not target enemies with HP greater than 40%."
+      },
+      "ability1":{
+         "name": "Sturm",
+         "lvl1": "Stun the nearest enemy and deal 35% ATK damage 5 times.",
+         "lvl2": "Stun the nearest enemy and deal 35% ATK damage 5 times. Moreover, the 5th hit inflicts additional damage equal to 25% of the target's current HP.<br><br>*The additional damage from the 5th hit is capped at a maximum of 600% of ATK.",
+         "lvl3": "Stun the nearest enemy and deal 40% ATK damage 5 times. Moreover, the 5th hit inflicts additional damage equal to 25% of the target's current HP.<br><br>*The additional damage from the 5th hit is capped at a maximum of 600% of ATK.",
+         "lvl4": "Stun the nearest enemy and deal 40% ATK damage 5 times. Moreover, the 5th hit inflicts additional damage equal to 35% of the target's current HP.<br><br>*The additional damage from the 5th hit is capped at a maximum of 600% of ATK.",
+         "lvl5": "Stun the nearest enemy and deal 40% ATK damage 5 times. Moreover, the 5th hit inflicts additional damage equal to 40% of the target's current HP.<br><br>*The additional damage from the 5th hit is capped at a maximum of 600% of ATK."
+      },
+      "ability2":{
+         "name": "Kaempfer",
+         "lvl1": "When no enemies are within the normal attack range, summon a falcon to charge at enemies, prioritizing those in the same row.",
+         "lvl2": "When no enemies are within the normal attack range, summon a falcon to charge at enemies, prioritizing those in the same row. Upon impact, the target will begin to bleed, taking damage equal to 60% of ATK per second for 8 seconds.",
+         "lvl3": "When no enemies are within the normal attack range, summon a falcon to charge at enemies, prioritizing those in the same row. Upon impact, the target will begin to bleed, taking damage equal to 65% of ATK per second for 8 seconds.",
+         "lvl4": "When no enemies are within the normal attack range, summon a falcon to charge at enemies, prioritizing those in the same row. Upon impact, the target will begin to bleed, taking damage equal to 70% of ATK per second for 8 seconds."
+      }
    },
    {
       "name": "Ennea",
@@ -125,7 +455,29 @@
       "element": "water",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Piercing Arrow",
+         "lvl1": "Deal 170% ATK damage to all enemies. If enemies are afflicted with Frost Edge, deal an additional 50% ATK damage.",
+         "lvl2": "Deal 170% ATK damage to all enemies. If enemies are afflicted with Frost Edge, deal an additional 50% ATK damage and stun them for 1 second.",
+         "lvl3": "Deal 220% ATK damage to all enemies. If enemies are afflicted with Frost Edge, deal an additional 50% ATK damage and stun them for 1 second.",
+         "lvl4": "Deal 220% ATK damage to all enemies. If enemies are afflicted with Frost Edge, deal an additional 100% ATK damage and stun them for 1 second."
+      },
+      "ability1":{
+         "name": "Angel Arrow",
+         "lvl1": "Fires a freezing arrow at the target, dealing 140% ATK damage and applying the Frost Edge effect for 10 seconds. The Frost Edge periodically inflicts 10% ATK damage to enemies every 3 seconds.",
+         "lvl2": "Fires a freezing arrow at the target, dealing 170% ATK damage and applying the Frost Edge effect for 10 seconds. The Frost Edge periodically inflicts 10% ATK damage to enemies every 3 seconds.",
+         "lvl3": "Fires a freezing arrow at the target, dealing 170% ATK damage and applying the Frost Edge effect for 10 seconds. The Frost Edge periodically inflicts 10% ATK damage to enemies every 3 seconds. Additionally, each instance of Frost Edge damage causes the target to lose 1 CP.",
+         "lvl4": "Fires a freezing arrow at the target, dealing 170% ATK damage and applying the Frost Edge effect for 10 seconds. The Frost Edge periodically inflicts 10% ATK damage to enemies every 3 seconds. Additionally, each instance of Frost Edge damage causes the target to lose 1 CP, with a 5% chance to interrupt the enemy's skills.",
+         "lvl5": "Fires a freezing arrow at the target, dealing 200% ATK damage and applying the Frost Edge effect for 10 seconds. The Frost Edge periodically inflicts 10% ATK damage to enemies every 3 seconds. Additionally, each instance of Frost Edge damage causes the target to lose 1 CP, with a 5% chance to interrupt the enemy's skills."
+      },
+      "ability2":{
+         "name": "Mirage Arrow",
+         "lvl1": "Inflict Frost Edge on 2 random enemies for 10 seconds, stunning them for 2 seconds.",
+         "lvl2": "Inflict Frost Edge on 3 random enemies for 10 seconds, stunning them for 2 seconds.",
+         "lvl3": "Inflict Frost Edge on 3 random enemies for 10 seconds, stunning them for 3 seconds.",
+         "lvl4": "Inflict Frost Edge on 3 random enemies for 10 seconds, stunning them for 3 seconds.<br><br>*If fewer than 3 enemies are affected by Frost Edge, the stun duration increases to 4 seconds."
+      }
    },
    {
       "name": "Alan Richard",
@@ -133,7 +485,29 @@
       "element": "fire",
       "type": "Power",
       "job": "Ranger",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Afterglow Smasher",
+         "lvl1": "Charge behind the weakest enemy and deal 200% ATK damage to all enemies within the target area.",
+         "lvl2": "Charge behind the weakest enemy and deal 220% ATK damage to all enemies within the target area.",
+         "lvl3": "Charge behind the weakest enemy and deal 240% ATK damage to all enemies within the target area.",
+         "lvl4": "Charge behind the weakest enemy and deal 260% ATK damage to all enemies within the target area."
+      },
+      "ability1":{
+         "name": "Luminous Wheel",
+         "lvl1": "Deliver a 5-hit combo to enemies withi a small area in front, dealing 60% ATK damage per hit.<br>Additionally, for the next 8 seconds, enemies will take 65% ATK damage every 0.5 seconds while moving.",
+         "lvl2": "Deliver a 5-hit combo to enemies withi a small area in front, dealing 70% ATK damage per hit.<br>Additionally, for the next 8 seconds, enemies will take 65% ATK damage every 0.5 seconds while moving.",
+         "lvl3": "Deliver a 5-hit combo to enemies withi a small area in front, dealing 70% ATK damage per hit.<br>Additionally, for the next 12 seconds, enemies will take 65% ATK damage every 0.5 seconds while moving.",
+         "lvl4": "Deliver a 5-hit combo to enemies withi a small area in front, dealing 80% ATK damage per hit.<br>Additionally, for the next 12 seconds, enemies will take 65% ATK damage every 0.5 seconds while moving.",
+         "lvl5": "Deliver a 5-hit combo to enemies withi a small area in front, dealing 90% ATK damage per hit.<br>Additionally, for the next 12 seconds, enemies will take 65% ATK damage every 0.5 seconds while moving."
+      },
+      "ability2":{
+         "name": "Sakura Morning Moon",
+         "lvl1": "When an enemy with less than 50 HP appears on the battlefield, prioritize attacking that target until its demise. Normal attacks become area-of-effect damage, increasing ATK by 35%.",
+         "lvl2": "When an enemy with less than 50 HP appears on the battlefield, prioritize attacking that target until its demise. Normal attacks become area-of-effect damage, increasing ATK by 35%. While attacking the target, gain 40 points of lifesteal.",
+         "lvl3": "When an enemy with less than 50 HP appears on the battlefield, prioritize attacking that target until its demise. Normal attacks become area-of-effect damage, increasing ATK by 50%. While attacking the target, gain 40 points of lifesteal.",
+         "lvl4": "When an enemy with less than 50 HP appears on the battlefield, prioritize attacking that target until its demise. Normal attacks become area-of-effect damage, increasing ATK by 50%. While attacking the target, gain 40 points of lifesteal. If the target dies, restore 40% of lost HP and gain a 40 increase in SPD for 12 seconds."
+      }
    },
    {
       "name": "Randy Orlando",
@@ -141,7 +515,29 @@
       "element": "fire",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "War Cry",
+         "lvl1": "Provide all allies with a 10% increase in ATK and a 15% reduction in damage for 8 seconds. Warriors and Tanks benefit further, gaining a 15% increase in ATK and a 20% reduction in damage.",
+         "lvl2": "Provide all allies with a 12% increase in ATK and a 15% reduction in damage for 8 seconds. Warriors and Tanks benefit further, gaining a 18% increase in ATK and a 20% reduction in damage.",
+         "lvl3": "Provide all allies with a 14% increase in ATK and a 15% reduction in damage for 8 seconds. Warriors and Tanks benefit further, gaining a 22% increase in ATK and a 20% reduction in damage.",
+         "lvl4": "Provide all allies with a 14% increase in ATK and a 15% reduction in damage for 8 seconds. Warriors and Tanks benefit further, gaining a 22% increase in ATK and a 20% reduction in damage, and 3 seconds of crowd control immunity."
+      },
+      "ability1":{
+         "name": "Power Crash",
+         "lvl1": "Deliver three consecutive attacks to enemies in a small circular area. The first two hits deal 65% ATK damage each, followed by a final blow dealing 120% ATK damage and stuns the target for 1.5 seconds.",
+         "lvl2": "Deliver three consecutive attacks to enemies in a small circular area. The first two hits deal 65% ATK damage each, followed by a final blow dealing 130% ATK damage and stuns the target for 1.5 seconds.",
+         "lvl3": "Deliver three consecutive attacks to enemies in a small circular area. The first two hits deal 65% ATK damage each, followed by a final blow dealing 130% ATK damage and stuns the target for 1.5 seconds. Additionally, affected enemies have their SPD reduced by 30 points for 6 seconds.",
+         "lvl4": "Deliver three consecutive attacks to enemies in a small circular area. The first two hits deal 65% ATK damage each, followed by a final blow dealing 140% ATK damage and stuns the target for 1.5 seconds. Additionally, affected enemies have their SPD reduced by 30 points for 6 seconds.",
+         "lvl5": "Deliver three consecutive attacks to enemies in a small circular area. The first two hits deal 80% ATK damage each, followed by a final blow dealing 140% ATK damage and stuns the target for 1.5 seconds. Additionally, affected enemies have their SPD reduced by 30 points for 6 seconds."
+      },
+      "ability2":{
+         "name": "Salamander",
+         "lvl1": "Deal 140% ATK damage to all enemies in a straight line. Additionally, knockback and stun them for 1 second.",
+         "lvl2": "Deal 160% ATK damage to all enemies in a straight line. Additionally, knockback and stun them for 1 second.",
+         "lvl3": "Deal 180% ATK damage to all enemies in a straight line. Additionally, knockback and stun them for 1 second.",
+         "lvl4": "Deal 180% ATK damage to all enemies in a straight line. Additionally, knockback and stun them for 2 second."
+      }
    },
    {
       "name": "Garcia Rossi",
@@ -149,7 +545,29 @@
       "element": "fire",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Killing Driver",
+         "lvl1": "Garcia enters a rampage mode, increasing ATK by 30%. Normal attacks deal 2 hits of 80% ATK damage each, with a 30% chance to stun enemies for 1 second. During this period, Garcia is immune to crowd control effects and regenerates 80 CP. While in rampage mode, 12 CP is consumed per second until CP is depleted, and S skills cannot be used.",
+         "lvl2": "Garcia enters a rampage mode, increasing ATK by 30%. Normal attacks deal 2 hits of 80% ATK damage each, with a 30% chance to stun enemies for 1 second. During this period, Garcia is immune to crowd control effects and regenerates 80 CP. While in rampage mode, 10 CP is consumed per second until CP is depleted, and S skills cannot be used.",
+         "lvl3": "Garcia enters a rampage mode, increasing ATK by 50%. Normal attacks deal 2 hits of 80% ATK damage each, with a 30% chance to stun enemies for 1 second. During this period, Garcia is immune to crowd control effects and regenerates 80 CP. While in rampage mode, 8 CP is consumed per second until CP is depleted, and S skills cannot be used.",
+         "lvl4": "Garcia enters a rampage mode, increasing ATK by 50%. Normal attacks deal 2 hits of 80% ATK damage each, with a 30% chance to stun enemies for 1 second. During this period, Garcia is immune to crowd control effects and regenerates 80 CP. While in rampage mode, 8 CP is consumed per second until CP is depleted, and S skills cannot be used."
+      },
+      "ability1":{
+         "name": "Whirlwind Kick",
+         "lvl1": "Deal 200% ATK damage to the enemy.",
+         "lvl2": "Deal 200% ATK damage to the enemy. This attack is enhanced to an area attack while in Rampage mode.",
+         "lvl3": "Deal 230% ATK damage to the enemy. This attack is enhanced to an area attack while in Rampage mode.",
+         "lvl4": "Deal 260% ATK damage to the enemy. This attack is enhanced to an area attack while in Rampage mode.",
+         "lvl5": "Deal 290% ATK damage to the enemy. This attack is enhanced to an area attack while in Rampage mode."
+      },
+      "ability2":{
+         "name": "Bear Tackle",
+         "lvl1": "When there are enemies nearby, Garcia takes 20% less damage.",
+         "lvl2": "When there are enemies nearby, Garcia takes 30% less damage.",
+         "lvl3": "When there are enemies nearby, Garcia takes 40% less damage.",
+         "lvl4": "When there are enemies nearby, Garcia takes 50% less damage."
+      }
    },
    {
       "name": "Scherazard Harvey",
@@ -157,7 +575,29 @@
       "element": "wind",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Buffer"
+      "role": "Buffer",
+      "sbreak":{
+         "name": "Judgment Card",
+         "lvl1": "Gather strength and unleash a powerful blow! Deals 220% ATK damage and significantly knocks back enemies.",
+         "lvl2": "Gather strength and unleash a powerful blow! Deals 240% ATK damage and significantly knocks back enemies.",
+         "lvl3": "Gather strength and unleash a powerful blow! Deals 260% ATK damage and significantly knocks back enemies.",
+         "lvl4": "Gather strength and unleash a powerful blow! Deals 280% ATK damage and significantly knocks back enemies."
+      },
+      "ability1":{
+         "name": "Sylphen Whip",
+         "lvl1": "Swift as lightning, deal 3 hits of 120% ATK damage to enemies.",
+         "lvl2": "Swift as lightning, deal 3 hits of 130% ATK damage to enemies.",
+         "lvl3": "Swift as lightning, deal 3 hits of 130% ATK damage to enemies. This skill also absorbs 35% of the damage dealt to restore HP.",
+         "lvl4": "Swift as lightning, deal 3 hits of 130% ATK damage to enemies. This skill also absorbs 45% of the damage dealt to restore HP.",
+         "lvl5": "Swift as lightning, deal 3 hits of 140% ATK damage to enemies. This skill also absorbs 45% of the damage dealt to restore HP."
+      },
+      "ability2":{
+         "name": "Heaven's Kiss",
+         "lvl1": "At the start of battle, inspire all allies with 35 SPD for 8 seconds.",
+         "lvl2": "At the start of battle, inspire all allies with 35 SPD for 8 seconds. Additionally, both user and allies restore 7 CP.",
+         "lvl3": "At the start of battle, inspire all allies with 35 SPD for 8 seconds. Additionally, both user and allies restore 10 CP.",
+         "lvl4": "At the start of battle, inspire all allies with 35 SPD for 12 seconds. Additionally, both user and allies restore 10 CP."
+      }
    },
    {
       "name": "Renne Bright",
@@ -165,7 +605,29 @@
       "element": "wind",
       "type": "Magic",
       "job": "Caster",
-      "role": "Action Inhibition"
+      "role": "Action Inhibition",
+      "sbreak":{
+         "name": "Lei Annihilation",
+         "lvl1": "Inflicts ATKx280% damage to all enemies and stuns them for 1 second. And gain the \"Annihilation Field\" for 20 seconds.<br> (Annihilation field: Ability to strengthen one's other combat skills)",
+         "lvl2": "Inflicts ATKx330% damage to all enemies and stuns them for 1 second. And gain the \"Annihilation Field\" for 20 seconds.<br> (Annihilation field: Ability to strengthen one's other combat skills)",
+         "lvl3": "Inflicts ATKx380% damage to all enemies and stuns them for 1 second. And gain the \"Annihilation Field\" for 20 seconds.<br> (Annihilation field: Ability to strengthen one's other combat skills)",
+         "lvl4": "Inflicts ATKx430% damage to all enemies and stuns them for 1 second. And gain the \"Annihilation Field\" for 20 seconds.<br> (Annihilation field: Ability to strengthen one's other combat skills)"
+      },
+      "ability1":{
+         "name": "Rondo of Sin",
+         "lvl1": "Deal ATKx50% damage to a random enemy, and summon \"Night Bats\" around it. The Night Bat has 50% of Rayne's HP and can exist for at most 15 seconds.<br> During the effect of \"Annihilation Field\", Night Bat will cause damage equal to 160% of Rayne's ATK to nearby enemies.",
+         "lvl2": "Deal ATKx50% damage to a random enemy, and summon \"Night Bats\" around it. The Night Bat has 50% of Rayne's HP and can exist for at most 15 seconds. When the enemy causes damage to the Night Bat, the enemy will in turn suffer 50% of the damage amount.<br> During the effect of \"Annihilation Field\", Night Bat will cause damage equal to 160% of Rayne's ATK to nearby enemies.",
+         "lvl3": "Deal ATKx50% damage to a random enemy, and summon \"Night Bats\" around it. The Night Bat has 50% of Rayne's HP and can exist for at most 15 seconds. When the enemy causes damage to the Night Bat, the enemy will in turn suffer 80% of the damage amount.<br> During the effect of \"Annihilation Field\", Night Bat will cause damage equal to 160% of Rayne's ATK to nearby enemies.",
+         "lvl4": "Deal ATKx50% damage to a random enemy, and summon \"Night Bats\" around it. The Night Bat has 50% of Rayne's HP and can exist for at most 15 seconds. When the enemy causes damage to the Night Bat, the enemy will in turn suffer 80% of the damage amount.<br> During the effect of \"Annihilation Field\", Night Bat will cause damage equal to 190% of Rayne's ATK to nearby enemies.",
+         "lvl5": "Deal ATKx50% damage to a random enemy, and summon \"Night Bats\" around it. The Night Bat has 50% of Rayne's HP and can exist for at most 15 seconds. When the enemy causes damage to the Night Bat, the enemy will in turn suffer 80% of the damage amount.<br> During the effect of \"Annihilation Field\", Night Bat will cause damage equal to 220% of Rayne's ATK to nearby enemies."
+      },
+      "ability2":{
+         "name": "The fickle Angel of Annihilation",
+         "lvl1": "Gives the \"Fickle Kitten\" effect to the ally with the lowest HP for 8 seconds.<br> (Fickle Kitten: Damage taken -20%, ATK x 70% of HP restored every second.)",
+         "lvl2": "Gives the \"Fickle Kitten\" effect to the ally with the lowest HP for 8 seconds.<br> (Fickle Kitten: Damage taken -20%, ATK x 70% of HP restored every second.)<br>During the effect period of \"Annihilation Field\", when \"Fickle Angel of Annihilation\" is activated, the effect becomes 12 seconds.<br> If \"Fickle Kitten\" already exists on the field, when the S combat skill is activated, the effect becomes 20 seconds.",
+         "lvl3": "Gives the \"Fickle Kitten\" effect to the ally with the lowest HP for 8 seconds.<br> (Fickle Kitten: Damage taken -20%, ATK x 85% of HP restored every second.)<br>During the effect period of \"Annihilation Field\", when \"Fickle Angel of Annihilation\" is activated, the effect becomes 12 seconds.<br> If \"Fickle Kitten\" already exists on the field, when the S combat skill is activated, the effect becomes 20 seconds.",
+         "lvl4": "Gives the \"Fickle Kitten\" effect to the two allies with the lowest HP for 8 seconds.<br> (Fickle Kitten: Damage taken -20%, ATK x 85% of HP restored every second.)<br>During the effect period of \"Annihilation Field\", when \"Fickle Angel of Annihilation\" is activated, the effect becomes 12 seconds.<br> If \"Fickle Kitten\" already exists on the field, when the S combat skill is activated, the effect becomes 20 seconds."
+      }
    },
    {
       "name": "Lechter Arundel",
@@ -173,7 +635,29 @@
       "element": "wind",
       "type": "Power",
       "job": "Warrior",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Rubrum Knight",
+         "lvl1": "Deal 230% ATK damage to the enemy and stun them for 1 second.",
+         "lvl2": "Deal 250% ATK damage to the enemy and stun them for 1 second.",
+         "lvl3": "Deal 270% ATK damage to the enemy and stun them for 1 second.",
+         "lvl4": "Deal 290% ATK damage to the enemy and stun them for 1 second."
+      },
+      "ability1":{
+         "name": "Laevatein",
+         "lvl1": "Deal 120% ATK damage to two nearby enemies in a small area and knock them back.",
+         "lvl2": "Deal 130% ATK damage to two nearby enemies in a small area and knock them back.",
+         "lvl3": "Deal 140% ATK damage to two nearby enemies in a small area and knock them back.",
+         "lvl4": "Deal 150% ATK damage to two nearby enemies in a small area and knock them back.",
+         "lvl5": "Deal 160% ATK damage to two nearby enemies in a small area and knock them back."
+      },
+      "ability2":{
+         "name": "Heat Up",
+         "lvl1": "When damage received is less than 7% of maximum HP, reduce damage by 50%",
+         "lvl2": "When damage received is less than 9% of maximum HP, reduce damage by 50%",
+         "lvl3": "When damage received is less than 10% of maximum HP, reduce damage by 50%",
+         "lvl4": "When damage received is less than 10% of maximum HP, reduce damage by 65%"
+      }
    },
    {
       "name": "Elie MacDowell",
@@ -181,7 +665,29 @@
       "element": "wind",
       "type": "Magic",
       "job": "Supporter",
-      "role": "Healer"
+      "role": "Healer",
+      "sbreak":{
+         "name": "Aura Rain",
+         "lvl1": "Restor HP to all allies equal to 30% of your maximum HP.",
+         "lvl2": "Restor HP to all allies equal to 30% of your maximum HP.<br>Additionally, restore an extra 10% of your maximum HP to allies with HP below 20%.",
+         "lvl3": "Restor HP to all allies equal to 30% of your maximum HP and provide a 15% DEF boost for 8 seconds.<br>Additionally, restore an extra 10% of your maximum HP to allies with HP below 20%.",
+         "lvl4": "Restor HP to all allies equal to 40% of your maximum HP and provide a 15% DEF boost for 8 seconds.<br>Additionally, restore an extra 10% of your maximum HP to allies with HP below 20%."
+      },
+      "ability1":{
+         "name": "Cross Mirage",
+         "lvl1": "Deal 90% of ATK damage to a random enemy, inflicting Confuse for 6 seconds.<br>Confused enemies will target their allies with regular attacks during this time.",
+         "lvl2": "Deal 110% of ATK damage to a random enemy, inflicting Confuse for 6 seconds.<br>Confused enemies will target their allies with regular attacks during this time.",
+         "lvl3": "Deal 110% of ATK damage to a random enemy, inflicting Confuse for 6 seconds.<br>Confused enemies will target their allies with both regular attacks and skills during this time.",
+         "lvl4": "Deal 110% of ATK damage to a random enemy, inflicting Confuse and increasing ATK damage by 30% for 6 seconds.<br>Confused enemies will target their allies with both regular attacks and skills during this time.",
+         "lvl5": "Deal 130% of ATK damage to a random enemy, inflicting Confuse and increasing ATK damage by 30% for 6 seconds.<br>Confused enemies will target their allies with both regular attacks and skills during this time."
+      },
+      "ability2":{
+         "name": "Holy Bullet",
+         "lvl1": "Gradually restore 30% of the maximum HP to the ally with the lowest HP.",
+         "lvl2": "Gradually restore 30% of the maximum HP and 30 CP to the ally with the lowest HP.",
+         "lvl3": "Gradually restore 40% of the maximum HP and 30 CP to the ally with the lowest HP.",
+         "lvl4": "Gradually restore 40% of the maximum HP and 30 CP to the ally with the lowest HP. Additionally, immediately restore 10 CP to the target ally."
+      }
    },
    {
       "name": "Duvalie",
@@ -189,7 +695,29 @@
       "element": "wind",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Range Effect"
+      "role": "Range Effect",
+      "sbreak":{
+         "name": "Prism Calibur",
+         "lvl1": "Unleash a powerful strike, dealing 270% ATK damage and creating a tornado upon contact with enemies, damaging them, reducing their speed, and knocking them back for 5 seconds.",
+         "lvl2": "Unleash a powerful strike, dealing 270% ATK damage and creating a tornado upon contact with enemies, damaging them, reducing their speed, and knocking them back for 7 seconds.",
+         "lvl3": "Unleash a powerful strike, dealing 300% ATK damage and creating a tornado upon contact with enemies, damaging them, reducing their speed, and knocking them back for 7 seconds.",
+         "lvl4": "Unleash a powerful strike, dealing 330% ATK damage and creating a tornado upon contact with enemies, damaging them, reducing their speed, and knocking them back for 7 seconds."
+      },
+      "ability1":{
+         "name": "Storm Brand",
+         "lvl1": "Deal 2 consecutive attacks. The first attack deals 150% ATK damage to all enemies in front and inflicts movement speed reduction within a certain range for 4 seconds. The second attack deals 180% ATK damage, knocking back enemies, and inflicting damage equal to 15% of their current HP.",
+         "lvl2": "Deal 2 consecutive attacks. The first attack deals 160% ATK damage to all enemies in front and inflicts movement speed reduction within a certain range for 4 seconds. The second attack deals 180% ATK damage, knocking back enemies, and inflicting damage equal to 15% of their current HP.",
+         "lvl3": "Deal 2 consecutive attacks. The first attack deals 160% ATK damage to all enemies in front and inflicts movement speed reduction within a certain range for 4 seconds. The second attack deals 220% ATK damage, knocking back enemies, and inflicting damage equal to 15% of their current HP.",
+         "lvl4": "Deal 2 consecutive attacks. The first attack deals 170% ATK damage to all enemies in front and inflicts movement speed reduction within a certain range for 4 seconds. The second attack deals 220% ATK damage, knocking back enemies, and inflicting damage equal to 15% of their current HP.",
+         "lvl5": "Deal 2 consecutive attacks. The first attack deals 170% ATK damage to all enemies in front and inflicts movement speed reduction within a certain range for 4 seconds. The second attack deals 260% ATK damage, knocking back enemies, and inflicting damage equal to 15% of their current HP."
+      },
+      "ability2":{
+         "name": "Swift Slash",
+         "lvl1": "Pull and gather enemies in front, dealing 140% ATK damage.",
+         "lvl2": "Pull and gather enemies in front, dealing 150% ATK damage.",
+         "lvl3": "Pull and gather enemies in front, dealing 160% ATK damage.",
+         "lvl4": "Pull and gather enemies in front, dealing 170% ATK damage."
+      }
    },
    {
       "name": "Fie Claussell",
@@ -197,7 +725,29 @@
       "element": "wind",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Assassin"
+      "role": "Assassin",
+      "sbreak":{
+         "name": "Sylphid Dance",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Scud Ripper",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Zephyr Whisper",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Rufus Albarea",
@@ -205,7 +755,29 @@
       "element": "wind",
       "type": "Power",
       "job": "Warrior",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Eternal Ruination",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Soul Slicer",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Arc Blade",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Rixia Mao",
@@ -213,7 +785,29 @@
       "element": "time",
       "type": "Magic",
       "job": "Supporter",
-      "role": "Debuffer"
+      "role": "Debuffer",
+      "sbreak":{
+         "name": "Moonlight Butterflies",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Dragon Claws",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Undying Butterflies",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Wazy Hemisphere",
@@ -221,7 +815,29 @@
       "element": "space",
       "type": "Magic",
       "job": "Caster",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Akashic Arm",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Phantom Rush",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Septenary Shot",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Josette Capua",
@@ -229,7 +845,29 @@
       "element": "earth",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Action Inhibition"
+      "role": "Action Inhibition",
+      "sbreak":{
+         "name": "Stampede",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Anchor Flail",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Bobcat",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Lloyd Bannings",
@@ -237,7 +875,29 @@
       "element": "earth",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Extend Hearts",
+         "lvl1": "Provide all allies with a shield that absorbs damage equal to 500% of ATK over 8 seconds.",
+         "lvl2": "Provide all allies with a shield that absorbs damage equal to 500% of ATK over 10 seconds.",
+         "lvl3": "Provide all allies with a shield that absorbs damage equal to 550% of ATK over 10 seconds.",
+         "lvl4": "Provide all allies with a shield that absorbs damage equal to 600% of ATK over 10 seconds."
+      },
+      "ability1":{
+         "name": "Brave Smash",
+         "lvl1": "Swing the tonfa, dealing 130% ATK damage to surrounding enemies and stunning them for 1 second.",
+         "lvl2": "Swing the tonfa, dealing 150% ATK damage to surrounding enemies and stunning them for 1 second.",
+         "lvl3": "Swing the tonfa, dealing 150% ATK damage to surrounding enemies and stunning them for 1 second. Each enemy stunned srants the user a 20% damage reduction effect for 8 seconds.",
+         "lvl4": "Swing the tonfa, dealing 160% ATK damage to surrounding enemies and stunning them for 1 second. Each enemy stunned srants the user a 20% damage reduction effect for 8 seconds.",
+         "lvl5": "Swing the tonfa, dealing 160% ATK damage to surrounding enemies and stunning them for 1 second. Each enemy stunned srants the user a 20% damage reduction effect for 10 seconds."
+      },
+      "ability2":{
+         "name": "Impenetrable Defense",
+         "lvl1": "Hold you tonfa and become create an impenetrable wall. For 5 seconds, reduce damage taken by 65% and become immune to crowd control effects.",
+         "lvl2": "Hold you tonfa and become create an impenetrable wall. For 5 seconds, reduce damage taken by 65% and become immune to crowd control effects.<br>Increase CP recovery by 200% when taking damage.",
+         "lvl3": "Hold you tonfa and become create an impenetrable wall. For 5 seconds, reduce damage taken by 75% and become immune to crowd control effects.<br>Increase CP recovery by 200% when taking damage.",
+         "lvl4": "Hold you tonfa and become create an impenetrable wall. For 5 seconds, reduce damage taken by 75% and become immune to crowd control effects.<br>Increase CP recovery by 250% when taking damage."
+      }
    },
    {
       "name": "Noël Seeker",
@@ -245,7 +905,29 @@
       "element": "earth",
       "type": "Power",
       "job": "Ranger",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Critical Storm",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Assault",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Large Grenade",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Michel",
@@ -253,7 +935,29 @@
       "element": "earth",
       "type": "Speed",
       "job": "Supporter",
-      "role": "Buffer"
+      "role": "Buffer",
+      "sbreak":{
+         "name": "Love's Mark",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Shadow Bind",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Love Is Blind",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Lynn",
@@ -261,7 +965,29 @@
       "element": "earth",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Assassin"
+      "role": "Assassin",
+      "sbreak":{
+         "name": "Thousand Hands of Regret Fist",
+         "lvl1": "Randomly attacks the enemy 7 times, causing damage equal to 80% of the attack power each time. You are invincible while the skill is being cast.",
+         "lvl2": "Randomly attacks the enemy 7 times, causing damage equal to 80% of the attack power each time. You are invincible while the skill is being cast. Each time a critical hit is caused within 7 attacks, the number of attacks will be increased by one additional time, up to 8 times.",
+         "lvl3": "Randomly attacks the enemy 9 times, causing damage equal to 80% of the attack power each time. You are invincible while the skill is being cast. Each time a critical hit is caused within 7 attacks, the number of attacks will be increased by one additional time, up to 8 times.",
+         "lvl4": "Randomly attacks the enemy 9 times, causing damage equal to 90% of the attack power each time. You are invincible while the skill is being cast. Each time a critical hit is caused within 7 attacks, the number of attacks will be increased by one additional time, up to 8 times."
+      },
+      "ability1":{
+         "name": "Aeolian Feet",
+         "lvl1": "Surprises behind the enemy, causing 120% attack power damage, and increasing critical hit rate by 20% for 5 seconds.",
+         "lvl2": "Surprises behind the enemy, causing 120% attack power damage, and increasing critical hit rate by 20% for 5 seconds. Additionally, gain a shield with 70% attack power.",
+         "lvl3": "Surprises behind the enemy, causing 130% attack power damage, and increasing critical hit rate by 20% for 5 seconds. Additionally, gain a shield with 70% attack power.",
+         "lvl4": "Surprises behind the enemy, causing 140% attack power damage, and increasing critical hit rate by 20% for 5 seconds. Additionally, gain a shield with 70% attack power.",
+         "lvl5": "Surprises behind the enemy, causing 140% attack power damage, and increasing critical hit rate by 20% for 5 seconds. Additionally, gain a shield with 100% attack power."
+      },
+      "ability2":{
+         "name": "Thors Strike",
+         "lvl1": "Increase your own critical hit rate by 15 points, and when you cause critical hits 4 times in total, you will cause 4 additional attacks to the enemy, and the last hit will cause 80% of the attack power as damage and an additional 15% of the enemy's maximum health. harm.",
+         "lvl2": "Increase your own critical hit rate by 15 points, and when you cause critical hits 4 times in total, you will cause 4 additional attacks to the enemy, and the last hit will cause 90% of the attack power as damage and an additional 15% of the enemy's maximum health. harm.",
+         "lvl3": "Increase your own critical hit rate by 15 points, and when you cause critical hits 4 times in total, you will cause 4 additional attacks to the enemy, and the last hit will cause 90% of the attack power as damage and an additional 18% of the enemy's maximum health. harm.",
+         "lvl4": "Increase your own critical hit rate by 15 points, and when you cause critical hits 4 times in total, you will cause 4 additional attacks to the enemy, and the last hit will cause 90% of the attack power as damage and an additional 21% of the enemy's maximum health. harm."
+      }
    },
    {
       "name": "Olivert Reise Arnor",
@@ -269,7 +995,29 @@
       "element": "water",
       "type": "Magic",
       "job": "Caster",
-      "role": "Range Effect"
+      "role": "Range Effect",
+      "sbreak":{
+         "name": "Requiem Hearts",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Sniper Shot",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Rose's Minuet",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Mueller Vander",
@@ -277,7 +1025,29 @@
       "element": "water",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Assassin"
+      "role": "Assassin",
+      "sbreak":{
+         "name": "True Righteous Witness",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Hound Gale",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Phantom Swap",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Mireille",
@@ -285,7 +1055,29 @@
       "element": "water",
       "type": "Magic",
       "job": "Caster",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "mirage sniping",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "smart missile",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Preparation for suppression",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Aeolia",
@@ -293,7 +1085,29 @@
       "element": "water",
       "type": "Magic",
       "job": "Supporter",
-      "role": "Buffer"
+      "role": "Buffer",
+      "sbreak":{
+         "name":"Medical Dance",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "First Aid",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Energy Medicine",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Rogan Mugart",
@@ -301,7 +1115,29 @@
       "element": "water",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Phenomenon Command",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Aura Extreme",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Iron Shield",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Agate Crosner",
@@ -309,7 +1145,29 @@
       "element": "fire",
       "type": "Power",
       "job": "Warrior",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Flame Smash",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Dragon Dive",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Wild Rage",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Alex Dudley",
@@ -317,7 +1175,29 @@
       "element": "fire",
       "type": "Power",
       "job": "Warrior",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Iron Fist of Justice",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Justice sanctions",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Shotgun",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Altina Orion",
@@ -325,7 +1205,29 @@
       "element": "fire",
       "type": "Speed",
       "job": "Ranger",
-      "role": "Powerful Damage"
+      "role": "Powerful Damage",
+      "sbreak":{
+         "name": "Doomsday Sword",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Spear of the Sun God",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Black Barrier",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Alfin Reise Arnor",
@@ -333,7 +1235,29 @@
       "element": "fire",
       "type": "Magic",
       "job": "Supporter",
-      "role": "Healer"
+      "role": "Healer",
+      "sbreak":{
+         "name": "Sacred Circle",
+         "lvl1": "Bless the two allies with the lowest HP, restoring HP equal to 400% of ATK. Additionally, deal area damage to surrounding enemies equal to 260% of ATK.",
+         "lvl2": "Bless the two allies with the lowest HP, restoring HP equal to 440% of ATK. Additionally, deal area damage to surrounding enemies equal to 260% of ATK.",
+         "lvl3": "Bless the two allies with the lowest HP, restoring HP equal to 480% of ATK. Additionally, deal area damage to surrounding enemies equal to 260% of ATK.",
+         "lvl4": "Bless the two allies with the lowest HP, restoring HP equal to 480% of ATK. Additionally, deal area damage to surrounding enemies equal to 300% of ATK."
+      },
+      "ability1":{
+         "name": "Healing Scepter",
+         "lvl1": "Release a small range healing power to the ally with the lowest HP, recovering HP equal to 100% of their own ATK. Additionally, place a Healing Scepter behind that ally.<br>While the scepter is present, the ally's HP will be restored by 3% of their maximum HP, and the scepter will have HP equal to 240% of Alfin's ATK.",
+         "lvl2": "Release a small range healing power to the ally with the lowest HP, recovering HP equal to 110% of their own ATK. Additionally, place a Healing Scepter behind that ally.<br>While the scepter is present, the ally's HP will be restored by 3% of their maximum HP, and the scepter will have HP equal to 240% of Alfin's ATK.",
+         "lvl3": "Release a small range healing power to the ally with the lowest HP, recovering HP equal to 120% of their own ATK. Additionally, place a Healing Scepter behind that ally.<br>While the scepter is present, the ally's HP will be restored by 3% of their maximum HP, and the scepter will have HP equal to 240% of Alfin's ATK.",
+         "lvl4": "Release a small range healing power to the ally with the lowest HP, recovering HP equal to 130% of their own ATK. Additionally, place a Healing Scepter behind that ally.<br>While the scepter is present, the ally's HP will be restored by 3% of their maximum HP, and the scepter will have HP equal to 240% of Alfin's ATK.",
+         "lvl5": "Release a small range healing power to the ally with the lowest HP, recovering HP equal to 130% of their own ATK. Additionally, place a Healing Scepter behind that ally.<br>While the scepter is present, the ally's HP will be restored by 5% of their maximum HP, and the scepter will have HP equal to 240% of Alfin's ATK."
+      },
+      "ability2":{
+         "name": "Holy Scepter",
+         "lvl1": "Release the power of small-range protection on random enemies, dealing damage equal to 120% of ATK in the area.<br>Additionally, place a Shield Scepter behind that enemy. While the septer is placed, it grants a provocation status to enemies within a certain range for 2 seconds. Furthermore, the scepter has HP equal to 650% of Alfin's ATK and the same DEF as Alfin.",
+         "lvl2": "Release the power of small-range protection on random enemies, dealing damage equal to 120% of ATK in the area.<br>Additionally, place a Schutzsepter behind that enemy. While the septer is placed, it grants a provocation status to enemies within a certain range for 2 seconds. Furthermore, the scepter has HP equal to 650% of Alfin's ATK and the same DEF as Alfin. Additionally, the septer recovers 10% of its maximum HP per second.",
+         "lvl3": "Release the power of small-range protection on random enemies, dealing damage equal to 150% of ATK in the area.<br>Additionally, place a Schutzsepter behind that enemy. While the septer is placed, it grants a provocation status to enemies within a certain range for 2 seconds. Furthermore, the scepter has HP equal to 650% of Alfin's ATK and the same DEF as Alfin. Additionally, the septer recovers 10% of its maximum HP per second.",
+         "lvl4": "Release the power of small-range protection on random enemies, dealing damage equal to 180% of ATK in the area.<br>Additionally, place a Schutzsepter behind that enemy. While the septer is placed, it grants a provocation status to enemies within a certain range for 2 seconds. Furthermore, the scepter has HP equal to 650% of Alfin's ATK and the same DEF as Alfin. Additionally, the septer recovers 10% of its maximum HP per second."
+      }
    },
    {
       "name": "Julia Schwarz",
@@ -341,7 +1265,29 @@
       "element": "wind",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Pentagramic Kleis",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Lanzenreiter",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Resolute Resolve",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Anelace Elfead",
@@ -349,7 +1295,29 @@
       "element": "wind",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Light Breaking Slash",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "fallen leaves",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Sword Wind Flash",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Kilika Rouran",
@@ -357,7 +1325,29 @@
       "element": "space",
       "type": "Power",
       "job": "Tank",
-      "role": "Life Leech"
+      "role": "Life Leech",
+      "sbreak":{
+         "name": "Dual Dragon Helix",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      },
+      "ability1":{
+         "name": "Elegance Wheel",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO",
+         "lvl5": "TODO"
+      },
+      "ability2":{
+         "name": "Zero Force",
+         "lvl1": "TODO",
+         "lvl2": "TODO",
+         "lvl3": "TODO",
+         "lvl4": "TODO"
+      }
    },
    {
       "name": "Scott",
@@ -365,6 +1355,28 @@
       "element": "space",
       "type": "Speed",
       "job": "Supporter",
-      "role": "Continuous Damage"
+      "role": "Continuous Damage",
+      "sbreak":{
+         "name": "Assault Order",
+         "lvl1": "Gain a shield equal to 100% of your ATK. Normal attacks deal 150% ATK area damage with reduced range.",
+         "lvl2": "Gain a shield equal to 100% of your ATK. Normal attacks deal 200% ATK area damage with reduced range.",
+         "lvl3": "Gain a shield equal to 150% of your ATK. Normal attacks deal 200% ATK area damage with reduced range.",
+         "lvl4": "Gain a shield equal to 200% of your ATK. Normal attacks deal 200% ATK area damage with reduced range."
+      },
+      "ability1":{
+         "name": "Defensive Order",
+         "lvl1": "After learning the skill, Scott cannot be displaced. Upon each death, he initiates a Defensive Stance, rendering him unable to attack or be attacked by enemies. Instead, he throws a healing grenade to himself, restoring 7% HP per second for 7 seconds. At the end of this state, Scott deals 200% ATK area damage around himself. If there are no surviving allies on the team, the skill's effect will be nullified.",
+         "lvl2": "After learning the skill, Scott cannot be displaced. Upon each death, he initiates a Defensive Stance, rendering him unable to attack or be attacked by enemies. Instead, he throws a healing grenade to himself, restoring 7% HP per second for 7 seconds. At the end of this state, Scott deals 240% ATK area damage around himself. If there are no surviving allies on the team, the skill's effect will be nullified.",
+         "lvl3": "After learning the skill, Scott cannot be displaced. Upon each death, he initiates a Defensive Stance, rendering him unable to attack or be attacked by enemies. Instead, he throws a healing grenade to himself, restoring 7% HP per second for 7 seconds. At the end of this state, Scott deals 280% ATK area damage around himself. If there are no surviving allies on the team, the skill's effect will be nullified.",
+         "lvl4": "After learning the skill, Scott cannot be displaced. Upon each death, he initiates a Defensive Stance, rendering him unable to attack or be attacked by enemies. Instead, he throws a healing grenade to himself, restoring 7% HP per second for 7 seconds. At the end of this state, Scott deals 320% ATK area damage around himself. If there are no surviving allies on the team, the skill's effect will be nullified.",
+         "lvl5": "After learning the skill, Scott cannot be displaced. Upon each death, he initiates a Defensive Stance, rendering him unable to attack or be attacked by enemies. Instead, he throws a healing grenade to himself, restoring 7% HP per second for 7 seconds. At the end of this state, Scott deals 360% ATK area damage around himself. If there are no surviving allies on the team, the skill's effect will be nullified."
+      },
+      "ability2":{
+         "name": "Healing Order",
+         "lvl1": "Whenever Scott loses 10% of his maximum HP, the two allies with the lowest HP will each restore HP equal to 150% of Scott's ATK.",
+         "lvl2": "Whenever Scott loses 10% of his maximum HP, the two allies with the lowest HP will each restore HP equal to 200% of Scott's ATK.",
+         "lvl3": "Whenever Scott loses 10% of his maximum HP, the two allies with the lowest HP will each restore HP equal to 250% of Scott's ATK.",
+         "lvl4": "Whenever Scott loses 10% of his maximum HP, the two allies with the lowest HP will each restore HP equal to 300% of Scott's ATK."
+      }
    }
 ]
