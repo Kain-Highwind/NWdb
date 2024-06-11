@@ -1,5 +1,6 @@
 var cdata;
 var nchara;
+var activePopUp = false;
 
 function createNavBar(){
    let navBarBox = document.createElement("div");
@@ -74,12 +75,16 @@ function createCharaBloc(charaObject){
    charaRole.innerHTML = charaObject.role;
    parentDiv.appendChild(charaRole);
 
+   let popUpWindowId = charaObject.name;
+   createPopUpWindow(charaObject, popUpWindowId);
+
    return parentDiv;
 }
 
 function createAllCharaDivs(){
    let firstDiv = document.createElement("div");
    firstDiv.classList.add("firstDiv");
+   firstDiv.setAttribute("id", "main");
    let end = document.getElementById("end");
    for (var i = 0 ; i < nchara ; i++){
       let newCharaBloc = createCharaBloc(cdata[i]);
@@ -92,3 +97,73 @@ async function startUp(){
    createNavBar();
    getfile("./charadata.json").then((cdata) => createAllCharaDivs());
 }
+
+
+
+function createPopUpWindow(popUpContent, id, type){
+   let window = document.createElement("div");
+   window.classList.add("popUpWindow");
+   window.setAttribute("id", id);
+
+   function popUpDivs(text){
+      let div = document.createElement("div");
+      div.innerHTML = text;
+      window.appendChild(div);
+   }
+
+   function linebr(){
+      window.appendChild(document.createElement("br"));
+   }
+
+   function popUpSliders(min, max, type){
+      let slider = document.createElement("slidecontainer");
+      let metadata = document.createElement("input");
+      metadata.setAttribute("type", "range");
+      metadata.setAttribute("min", min);
+      metadata.setAttribute("max", max);
+      metadata.setAttribute("value", 1);
+      slider.appendChild(metadata);
+      slider.addEventListener("change", function(){
+         let newLevel = "level" + metadata.value;
+         slider.nextSibling.innerHTML = cdata.type;
+      })
+      window.appendChild(slider);
+   }
+
+   popUpDivs(popUpContent.sbreak.name);
+   popUpSliders(1, 4, "sbreak");
+   popUpDivs(popUpContent.sbreak.lvl1);
+   linebr();
+   popUpDivs(popUpContent.ability1.name);
+   popUpSliders(1, 5, "ability1");
+   popUpDivs(popUpContent.ability1.lvl1);
+   linebr();
+   popUpDivs(popUpContent.ability2.name);
+   popUpSliders(1, 5, "ability2");
+   popUpDivs(popUpContent.ability2.lvl1);
+
+   let lineBreak = document.createElement("br");
+   window.appendChild(lineBreak);
+
+   let closeButton = document.createElement("button");
+   closeButton.setAttribute("type", "button");
+   closeButton.setAttribute("class", "close");
+   closeButton.innerHTML = "close";
+   window.appendChild(closeButton);
+
+   document.body.insertAdjacentElement("afterbegin", window);
+}
+
+addEventListener("click", function(element){
+   //hide pop-up window on click
+   if(element.target.classList.contains("close")){
+      element.target.parentNode.style.visibility = "hidden";
+      activePopUp = false;
+   }
+
+   //open requested pop-up window
+   if (element.target.classList.contains("characterName") && !activePopUp){
+      document.getElementById(element.target.innerHTML).style.visibility = "visible";
+      activePopUp = true;
+   }
+})
